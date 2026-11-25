@@ -1,6 +1,7 @@
 package com.rotguard.app.feature.shield
 
 import androidx.compose.animation.AnimatedContent
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
@@ -31,6 +32,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -146,6 +148,7 @@ private fun BlockingContent(
         BlockerTopStatusBar(
             appDisplayName = appName,
             todayAttemptsCount = state.todayAttemptsCount,
+            idleSecondsLeft = state.idleSecondsLeft,
         )
 
         BlockerFocalStage(
@@ -212,6 +215,7 @@ private fun BlockingContent(
 private fun BlockerTopStatusBar(
     appDisplayName: String,
     todayAttemptsCount: Int,
+    idleSecondsLeft: Int?,
 ) {
     val palette = VerdantTheme.colors
     Row(
@@ -235,11 +239,52 @@ private fun BlockerTopStatusBar(
                 color = palette.cream,
             )
         }
-        Text(
-            text = stringResource(R.string.shield_open_count_today, todayAttemptsCount),
-            style = MaterialTheme.typography.labelMedium,
-            color = palette.canopyMuted,
-        )
+        Column(
+            horizontalAlignment = Alignment.End,
+            verticalArrangement = Arrangement.spacedBy(space = 6.dp),
+        ) {
+            Text(
+                text = stringResource(R.string.shield_open_count_today, todayAttemptsCount),
+                style = MaterialTheme.typography.labelMedium,
+                color = palette.canopyMuted,
+            )
+            IdleAutoCloseCountdown(secondsLeft = idleSecondsLeft)
+        }
+    }
+}
+
+/** "Closes in 7s" with a draining ring; appears for the last stretch before the idle auto-close. */
+@Composable
+private fun IdleAutoCloseCountdown(secondsLeft: Int?) {
+    val palette = VerdantTheme.colors
+    val totalSeconds = (FrictionSessionController.IDLE_AUTO_CLOSE_MS -
+        FrictionSessionController.IDLE_COUNTDOWN_SHOWN_AFTER_MS) / MILLIS_PER_SECOND_FLOAT
+    AnimatedVisibility(visible = secondsLeft != null, enter = fadeIn(), exit = fadeOut()) {
+        val shown = secondsLeft ?: 0
+        Surface(
+            shape = RoundedCornerShape(percent = 50),
+            color = palette.sunGold.copy(alpha = 0.16f),
+            border = BorderStroke(width = 1.dp, color = palette.sunGold),
+        ) {
+            Row(
+                modifier = Modifier.padding(start = 8.dp, end = 12.dp, top = 5.dp, bottom = 5.dp),
+                horizontalArrangement = Arrangement.spacedBy(space = 6.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                CircularProgressIndicator(
+                    progress = { shown / totalSeconds },
+                    modifier = Modifier.size(size = 14.dp),
+                    color = palette.sunGold,
+                    trackColor = palette.sunGold.copy(alpha = 0.25f),
+                    strokeWidth = 2.dp,
+                )
+                Text(
+                    text = stringResource(R.string.shield_idle_closing_in, shown),
+                    style = MaterialTheme.typography.labelMedium,
+                    color = palette.sunGold,
+                )
+            }
+        }
     }
 }
 

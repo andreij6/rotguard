@@ -37,4 +37,5 @@
     <string name="home_break_title">On a break</string>
     <string name="home_break_until">%1$s · unpaused until %2$s</string>
     <string name="home_break_resume">Resume pausing</string>
+    <string name="shield_idle_closing_in">Closes in %1$ds</string>
 </resources>

@@ -37,4 +37,5 @@
     <string name="home_break_title">En descanso</string>
     <string name="home_break_until">%1$s · sin pausas hasta las %2$s</string>
     <string name="home_break_resume">Reanudar pausas</string>
+    <string name="shield_idle_closing_in">Se cierra en %1$d s</string>
 </resources>

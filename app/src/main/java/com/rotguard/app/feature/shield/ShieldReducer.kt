@@ -36,6 +36,23 @@ object ShieldReducer {
     private const val MIN_HOLD_DURATION_MS = 1_000L
     private const val SECOND_THOUGHT_THRESHOLD = 0.5f
 
+    /** After "Close", how long the closed app or RotGuard itself bouncing back to the front gets sent Home again. */
+    const val CLOSE_SETTLE_MS = 2_500L
+
+    /**
+     * True when, right after the user closed [closedPackage], that app or RotGuard's own UI comes back to the front
+     * (launchers can briefly return to the previous task while Home animates). The service answers with Home again.
+     */
+    fun isBounceBackAfterClose(
+        foregroundPackageName: String,
+        ownPackageName: String,
+        closedPackage: String?,
+        nowMillis: Long,
+        closeSettlesAtMillis: Long,
+    ): Boolean = closedPackage != null &&
+        nowMillis < closeSettlesAtMillis &&
+        (foregroundPackageName == closedPackage || foregroundPackageName == ownPackageName)
+
     /** Seeing the pause screen again within this window offers a break. */
     const val GRACE_OFFER_WINDOW_MS = 5 * 60 * 1_000L
     val GRACE_OPTIONS_MINUTES: List<Int> = listOf(30, 60, 120)
@@ -69,11 +86,14 @@ object ShieldReducer {
             reminderCategoryBadgeRes = event.decision.reminderCategoryBadgeRes,
             offerGracePeriod = event.decision.offerGracePeriod,
         )
+        is ShieldInternalEvent.IdleCountdownUpdated -> reduceBlocking(state) {
+            it.copy(idleSecondsLeft = event.secondsLeft)
+        }
         is ShieldInternalEvent.GraceMinutesUpdated -> reduceBlocking(state) {
             it.copy(graceMinutes = event.minutes?.takeIf { minutes -> minutes in GRACE_OPTIONS_MINUTES })
         }
         ShieldInternalEvent.HoldBegan -> reduceBlocking(state) {
-            it.copy(isHolding = true, releasedEarlyHint = false)
+            it.copy(isHolding = true, releasedEarlyHint = false, idleSecondsLeft = null)
         }
         is ShieldInternalEvent.HoldProgressed -> reduceBlocking(state) { blocking ->
             val clamped = event.progressFraction.coerceIn(0f, 1f)

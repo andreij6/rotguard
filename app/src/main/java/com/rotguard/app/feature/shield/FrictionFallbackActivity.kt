@@ -17,6 +17,7 @@ import com.rotguard.app.storage.AppPackageName
 import com.rotguard.app.storage.ThemeMode
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
@@ -49,6 +50,14 @@ class FrictionFallbackActivity : ComponentActivity() {
             val pkg = intent.getStringExtra(EXTRA_PACKAGE_NAME) ?: DEFAULT_DEMO_PACKAGE
             val appName = intent.getStringExtra(EXTRA_APP_NAME) ?: DEFAULT_DEMO_NAME
             launchDemoSession(AppPackageName(pkg), appName, isTestMode)
+        }
+
+        // Never leave this screen behind once its session ends (closed, continued or dismissed); otherwise it
+        // resurfaces later on top of RotGuard's task.
+        lifecycleScope.launch {
+            sessionController.uiState.first { it !is ShieldOverlayUiState.Hidden }
+            sessionController.uiState.first { it is ShieldOverlayUiState.Hidden }
+            finish()
         }
 
         setContent {

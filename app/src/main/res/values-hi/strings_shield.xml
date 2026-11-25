@@ -34,4 +34,5 @@
     <string name="home_break_title">ब्रेक पर</string>
     <string name="home_break_until">%1$s · %2$s तक बिना विराम</string>
     <string name="home_break_resume">विराम फिर शुरू करें</string>
+    <string name="shield_idle_closing_in">%1$d सेकंड में बंद होगा</string>
 </resources>

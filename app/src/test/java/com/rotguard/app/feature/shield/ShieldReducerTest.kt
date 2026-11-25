@@ -78,6 +78,19 @@ class ShieldReducerTest {
     }
 
     @Test
+    fun `closed app or RotGuard bouncing back right after close is sent home, later visits are not`() {
+        val yt = "com.google.android.youtube"
+        val own = "com.rotguard.app"
+        fun bounce(foreground: String, closed: String?, now: Long) =
+            ShieldReducer.isBounceBackAfterClose(foreground, own, closed, now, closeSettlesAtMillis = 2_500L)
+        assertTrue(bounce(yt, yt, now = 1_000L))
+        assertTrue(bounce(own, yt, now = 1_000L))
+        assertFalse(bounce("launcher", yt, now = 1_000L))
+        assertFalse(bounce(yt, yt, now = 3_000L))
+        assertFalse(bounce(yt, null, now = 1_000L))
+    }
+
+    @Test
     fun `just closed app does not re-trigger while closing, but does after another app comes forward`() {
         val youtube = "com.google.android.youtube"
         val context = baseContext(guardedApps = mapOf(youtube to GuardedAppEntity(youtube, "YouTube", true, null)))

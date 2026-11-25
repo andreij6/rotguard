@@ -43,6 +43,8 @@ sealed interface ShieldOverlayUiState {
         val offerGracePeriod: Boolean = false,
         /** Chosen break length if the checkbox is ticked; applied only if the user then holds to continue. */
         val graceMinutes: Int? = null,
+        /** Seconds until the idle auto-close, shown only in its final stretch; null = not counting down. */
+        val idleSecondsLeft: Int? = null,
     ) : ShieldOverlayUiState
 
     data class CelebratingExit(
@@ -137,6 +139,7 @@ sealed interface ShieldInternalEvent {
     data class HoldProgressed(val progressFraction: Float) : ShieldInternalEvent
     data object HoldReleasedEarly : ShieldInternalEvent
     data class GraceMinutesUpdated(val minutes: Int?) : ShieldInternalEvent
+    data class IdleCountdownUpdated(val secondsLeft: Int?) : ShieldInternalEvent
     data class ExitCelebrationStarted(
         val estimatedMinutesSaved: Int,
         val todayUrgesStoppedCount: Int,

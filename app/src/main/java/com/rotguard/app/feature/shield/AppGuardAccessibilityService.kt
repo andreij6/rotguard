@@ -1,7 +1,9 @@
 package com.rotguard.app.feature.shield
 
 import android.accessibilityservice.AccessibilityService
+import android.os.SystemClock
 import android.provider.Settings
+import android.util.Log
 import android.view.accessibility.AccessibilityEvent
 import com.rotguard.app.storage.ClockProvider
 import dagger.hilt.android.AndroidEntryPoint
@@ -31,6 +33,8 @@ class AppGuardAccessibilityService : AccessibilityService() {
     private var trackerState = ShieldTrackerState()
     private var evaluationJob: Job? = null
     private var overlayWindow: FrictionOverlayWindow? = null
+    private var closingPackage: String? = null
+    private var closeSettlesAtMillis = 0L
 
     override fun onServiceConnected() {
         super.onServiceConnected()
@@ -40,6 +44,18 @@ class AppGuardAccessibilityService : AccessibilityService() {
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {
         if (event == null || event.eventType != AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED) return
         val foregroundPkg = event.packageName?.toString() ?: return
+        val now = SystemClock.uptimeMillis()
+        val bouncedBack = ShieldReducer.isBounceBackAfterClose(
+            foregroundPackageName = foregroundPkg,
+            ownPackageName = packageName,
+            closedPackage = closingPackage,
+            nowMillis = now,
+            closeSettlesAtMillis = closeSettlesAtMillis,
+        )
+        if (bouncedBack) {
+            performGlobalAction(GLOBAL_ACTION_HOME) // the closed app (or RotGuard) popped back up: finish closing
+            return
+        }
 
         evaluationJob?.cancel()
         evaluationJob = serviceScope.launch {
@@ -66,10 +82,10 @@ class AppGuardAccessibilityService : AccessibilityService() {
                 }
             } catch (cancelled: CancellationException) {
                 throw cancelled
-            } catch (_: IOException) {
-                // Keep service resilient on transient Room I/O hiccups.
-            } catch (_: IllegalStateException) {
-                // Keep service resilient if state transitions mid-teardown.
+            } catch (ioFailure: IOException) {
+                Log.w(LOG_TAG, "Shield evaluation failed for $foregroundPkg", ioFailure) // stay resilient
+            } catch (stateFailure: IllegalStateException) {
+                Log.w(LOG_TAG, "Shield evaluation failed for $foregroundPkg", stateFailure) // stay resilient
             }
         }
     }
@@ -97,6 +113,8 @@ class AppGuardAccessibilityService : AccessibilityService() {
             // window event, and the pause screen pops up again over it.
             performGlobalAction(GLOBAL_ACTION_HOME)
             overlayWindow?.detach()
+            closingPackage = decision.packageName.value
+            closeSettlesAtMillis = SystemClock.uptimeMillis() + ShieldReducer.CLOSE_SETTLE_MS
             trackerState = trackerState.copy(
                 isOverlayShowing = false,
                 activeGuardedApp = null,
@@ -138,3 +156,5 @@ class AppGuardAccessibilityService : AccessibilityService() {
         }
     }
 }
+
+private const val LOG_TAG = "RotGuardShield"

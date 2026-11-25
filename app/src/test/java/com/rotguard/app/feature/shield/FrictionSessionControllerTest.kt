@@ -121,6 +121,28 @@ class FrictionSessionControllerTest {
     }
 
     @Test
+    fun `idle countdown appears after 8 seconds and ticks down to 1`() = runTest {
+        val dispatcher = StandardTestDispatcher(testScheduler)
+        val controller = FrictionSessionController(
+            FakeShieldDataSource(),
+            RecordingHapticConductor(),
+            FixedClockProvider(),
+            dispatcher,
+        )
+        controller.startBlockingSession(sampleDecision(), onExitToHome = {}, onContinueToApp = {})
+
+        advanceTimeBy(7_900L)
+        assertEquals(null, (controller.uiState.value as ShieldOverlayUiState.Blocking).idleSecondsLeft)
+        advanceTimeBy(200L)
+        assertEquals(7, (controller.uiState.value as ShieldOverlayUiState.Blocking).idleSecondsLeft)
+        advanceTimeBy(6_000L)
+        assertEquals(1, (controller.uiState.value as ShieldOverlayUiState.Blocking).idleSecondsLeft)
+
+        controller.onAction(ShieldAction.HoldStarted)
+        assertEquals(null, (controller.uiState.value as ShieldOverlayUiState.Blocking).idleSecondsLeft)
+    }
+
+    @Test
     fun `holding pauses the idle auto-close and an early release restarts it`() = runTest {
         val dispatcher = StandardTestDispatcher(testScheduler)
         val controller = FrictionSessionController(

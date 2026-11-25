@@ -39,6 +39,7 @@
 
         <activity
             android:name=".feature.shield.FrictionFallbackActivity"
+            android:taskAffinity="com.rotguard.app.shield"
             android:excludeFromRecents="true"
             android:exported="false"
             android:launchMode="singleTop"

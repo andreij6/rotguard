@@ -85,8 +85,17 @@ class FrictionSessionController @Inject constructor(
      */
     private fun restartIdleAutoClose() {
         idleAutoCloseJob?.cancel()
+        _uiState.value = ShieldReducer.reduce(_uiState.value, ShieldInternalEvent.IdleCountdownUpdated(null))
         idleAutoCloseJob = controllerScope.launch {
-            delay(IDLE_AUTO_CLOSE_MS)
+            // Quiet for the first stretch, then a visible per-second countdown to the auto-close.
+            delay(IDLE_COUNTDOWN_SHOWN_AFTER_MS)
+            var secondsLeft = ((IDLE_AUTO_CLOSE_MS - IDLE_COUNTDOWN_SHOWN_AFTER_MS) / MILLIS_PER_SECOND).toInt()
+            while (secondsLeft > 0) {
+                _uiState.value =
+                    ShieldReducer.reduce(_uiState.value, ShieldInternalEvent.IdleCountdownUpdated(secondsLeft))
+                delay(MILLIS_PER_SECOND)
+                secondsLeft--
+            }
             val current = _uiState.value as? ShieldOverlayUiState.Blocking ?: return@launch
             if (!current.isHolding) handleProtectBrainExit()
         }
@@ -281,6 +290,8 @@ class FrictionSessionController @Inject constructor(
     companion object {
         const val EXIT_CELEBRATION_DURATION_MS = 1_550L
         const val IDLE_AUTO_CLOSE_MS = 15_000L
+        const val IDLE_COUNTDOWN_SHOWN_AFTER_MS = 8_000L
+        private const val MILLIS_PER_SECOND = 1_000L
         private const val MILLIS_PER_MINUTE = 60_000L
         private const val MINUTES_SAVED_ON_RESIST = 5
         private const val INITIAL_WARNING_INTENSITY = 0.78f

@@ -46,4 +46,5 @@
     <string name="home_break_title">في استراحة</string>
     <string name="home_break_until">%1$s · بلا توقف حتى %2$s</string>
     <string name="home_break_resume">استئناف التوقف المؤقت</string>
+    <string name="shield_idle_closing_in">يُغلق خلال %1$d ث</string>
 </resources>
