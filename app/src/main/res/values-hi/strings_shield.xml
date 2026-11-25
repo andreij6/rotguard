@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shield_seconds_short">%1$s से.</string>
+    <string name="shield_close_app">%1$s बंद करें</string>
+    <plurals name="shield_hold_to_continue">
+        <item quantity="one">जारी रखने के लिए %1$d सेकंड दबाए रखें</item>
+        <item quantity="other">जारी रखने के लिए %1$d सेकंड दबाए रखें</item>
+    </plurals>
+    <string name="shield_keep_holding">दबाए रखें · %1$s से.</string>
+    <string name="shield_released_early_hint">रुका हुआ — अंदर जाने के लिए लगातार दबाए रखें, या ऊपर से बंद करें.</string>
+    <string name="shield_close_above_hint">आराम से पीछे हटने के लिए ऊपर से बंद करें.</string>
+    <string name="shield_pause_app">विराम · %1$s</string>
+    <string name="shield_open_count_today">आज %1$dवीं बार खोला</string>
+    <string name="shield_pause_illustration">शांत विराम का चित्र</string>
+    <string name="shield_breathe_slowly">धीरे-धीरे सांस लें</string>
+    <string name="shield_quoted_mantra">“%1$s”</string>
+    <plurals name="shield_minutes_saved">
+        <item quantity="one">+%1$d मिनट बचा</item>
+        <item quantity="other">+%1$d मिनट बचे</item>
+    </plurals>
+    <plurals name="shield_stopped_today">
+        <item quantity="one">आज %1$d बार रुके</item>
+        <item quantity="other">आज %1$d बार रुके</item>
+    </plurals>
+    <string name="shield_nice_choice">अच्छा फ़ैसला.\n%1$s बंद हो गया.</string>
+    <string name="shield_back_to_what_matters">ज़रूरी चीज़ों की ओर वापस</string>
+    <string name="shield_returning_home">होम पर लौट रहे हैं…</string>
+    <!-- Break offered on a repeat pause screen -->
+    <string name="shield_break_checkbox">कुछ देर के लिए %1$s को न रोकें</string>
+    <string name="shield_break_30">30 मिनट</string>
+    <string name="shield_break_60">1 घंटा</string>
+    <string name="shield_break_120">2 घंटे</string>
+    <string name="shield_break_hint">जारी रखने के लिए दबाकर रखने पर शुरू होगा।</string>
+    <string name="home_break_title">ब्रेक पर</string>
+    <string name="home_break_until">%1$s · %2$s तक बिना विराम</string>
+    <string name="home_break_resume">विराम फिर शुरू करें</string>
+</resources>

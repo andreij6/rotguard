@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Shared strings: domain enums, starter texts, goals, peak windows and the blocker prompts.
+  Feature screens keep their own strings_<feature>.xml next to this file.
+  Tone: warm, calm, never shaming. Readers are students and working professionals.
+-->
+<resources>
+    <string name="app_name" translatable="false">RotGuard</string>
+    <string name="accessibility_service_description">Detects when you open guarded apps like YouTube so RotGuard can present a press-and-hold friction shield. Never reads screen contents or messages.</string>
+    <string name="accessibility_service_summary">App switch detection for RotGuard friction shield</string>
+    <string name="tutorial_open_settings">Open Settings</string>
+
+    <!-- Reminder categories -->
+    <string name="reminder_category_personal_goal">Personal Goal</string>
+    <string name="reminder_category_inspiration">Inspiration</string>
+    <string name="reminder_category_refocus_cue">Refocus Cue</string>
+    <string name="reminder_category_custom">Custom</string>
+    <string name="reminder_badge_personal_goal">PERSONAL GOAL</string>
+    <string name="reminder_badge_inspiration">INSPIRATION</string>
+    <string name="reminder_badge_refocus_cue">REFOCUS CUE</string>
+    <string name="reminder_badge_custom">REMINDER</string>
+    <string name="reminder_placeholder_personal_goal">e.g. Finish my essay or report before Friday</string>
+    <string name="reminder_placeholder_inspiration">e.g. Build a life you don\'t need to escape from</string>
+    <string name="reminder_placeholder_refocus_cue">e.g. Put the phone down and take 3 slow breaths</string>
+    <string name="reminder_placeholder_custom">Write your own personal reminder…</string>
+
+    <!-- Focus stages (simulator + blocker) -->
+    <string name="stage_1_title">Stage 1 · Steady</string>
+    <string name="stage_2_title">Stage 2 · Restless</string>
+    <string name="stage_3_title">Stage 3 · Strained</string>
+    <string name="stage_4_title">Stage 4 · Scattered</string>
+    <string name="stage_5_title">Stage 5 · Overloaded</string>
+    <string name="stage_1_reels">0 Reels</string>
+    <string name="stage_2_reels">50 Reels</string>
+    <string name="stage_3_reels">100 Reels</string>
+    <string name="stage_4_reels">150 Reels</string>
+    <string name="stage_5_reels">200+ Reels</string>
+    <string name="stage_1_fact">Baseline attention stays intact. Deep focus requires less effort to begin.</string>
+    <string name="stage_2_fact">Frequent app switching fragments working memory and raises urge frequency.</string>
+    <string name="stage_3_fact">Variable-reward feeds spike craving while dulling satisfaction from slow tasks.</string>
+    <string name="stage_4_fact">Fast feeds dip focus below baseline, making reading, studying, or deep work feel flat.</string>
+    <string name="stage_5_fact">Autopilot thumb loops take over attention. Physical friction breaks the reflex.</string>
+    <string name="stage_1_haptic">Gentle single tap</string>
+    <string name="stage_2_haptic">Soft double tap</string>
+    <string name="stage_3_haptic">Heavy resistance pulse</string>
+    <string name="stage_4_haptic">Uneven stutter pulse</string>
+    <string name="stage_5_haptic">Deep weighted pulse</string>
+
+    <!-- Starter texts. Stored in English in Room and shown translated (see StarterTextCatalog). -->
+    <string name="starter_mantra_outlast_feed">Build things that outlast the feed.</string>
+    <string name="starter_mantra_protect_rest">Protect tonight\'s rest and tomorrow\'s energy.</string>
+    <string name="starter_mantra_create_first">Create before you consume.</string>
+    <string name="starter_mantra_be_present_here">Be where your feet are right now.</string>
+    <string name="starter_mantra_ten_pages">Ten pages beats fifty reels.</string>
+    <string name="starter_reminder_fully_present">Be fully present with the people in front of you.</string>
+    <string name="starter_reminder_unclench">Unclench your jaw, drop your shoulders, exhale.</string>
+    <string name="hint_protect_sleep">Protect tonight\'s sleep and tomorrow\'s energy.</string>
+    <string name="hint_read_ten_pages">Read 10 pages before opening any feed.</string>
+    <string name="hint_finish_one_task">Finish one meaningful task first.</string>
+    <string name="hint_small_choices">Small daily choices shape the year ahead.</string>
+    <string name="hint_future_self">Do something your future self will thank you for.</string>
+    <string name="hint_stand_up">Stand up, drink water, and look away from the screen.</string>
+    <string name="hint_notice_urge">Notice the urge — you don\'t have to follow it.</string>
+    <string name="hint_return_to_task">Close this app and return to what you started.</string>
+    <string name="hint_feel_better">What would feel better than scrolling right now?</string>
+    <string name="hint_on_purpose">Check in: did I open this on purpose?</string>
+    <string name="starter_photo_morning_trail_title">Morning Trail</string>
+    <string name="starter_photo_morning_trail_caption">Early sunlight before the noise</string>
+    <string name="starter_photo_redwood_title">Redwood Path</string>
+    <string name="starter_photo_redwood_caption">Slow hours outdoors</string>
+    <string name="starter_photo_evenings_title">Slow Evenings</string>
+    <string name="starter_photo_evenings_caption">Rest without the glowing feed</string>
+    <string name="starter_photo_personal_title">My Inspiration</string>
+    <string name="starter_photo_personal_caption">What matters more than scrolling</string>
+
+    <!-- Peak scrolling windows (stored as English keys) -->
+    <string name="peak_morning">Morning Wake-Up</string>
+    <string name="peak_midday">Midday Slump</string>
+    <string name="peak_between">Between Classes / Meetings</string>
+    <string name="peak_after_work">After Work / School</string>
+    <string name="peak_late_night">Late Night (9pm – 1am)</string>
+
+    <!-- Onboarding goals -->
+    <string name="goal_deep_work_title">Deep Work &amp; Study</string>
+    <string name="goal_deep_work_subtitle">Protect focus blocks for classes, coursework, and work.</string>
+    <string name="goal_better_sleep_title">Better Sleep Before Midnight</string>
+    <string name="goal_better_sleep_subtitle">Stop the 11pm endless swipe spiral.</string>
+    <string name="goal_create_title">Create &amp; Build Projects</string>
+    <string name="goal_create_subtitle">Put scroll time into side projects, portfolios, or creative work.</string>
+    <string name="goal_present_title">Be Present With People</string>
+    <string name="goal_present_subtitle">Stay off your phone with friends, family, classmates, and colleagues.</string>
+    <string name="goal_read_title">Read &amp; Learn Daily</string>
+    <string name="goal_read_subtitle">Rebuild long-form reading stamina.</string>
+
+    <!-- Blocker prompts. %1$s = the guarded app's name (e.g. YouTube). -->
+    <string name="blocker_this_app">this app</string>
+    <string name="blocker_opening_1">Take one slow breath before opening.</string>
+    <string name="blocker_second_1">Still want to open it? Release to close right now.</string>
+    <string name="blocker_opening_2">Will tomorrow morning thank you for this tap?</string>
+    <string name="blocker_second_2">Keep holding only if this actually helps your goal.</string>
+    <string name="blocker_opening_3">The average quick check turns into 19 minutes.</string>
+    <string name="blocker_second_3">Letting go right now gives those 19 minutes back.</string>
+    <string name="blocker_opening_4">Pause before opening %1$s.</string>
+    <string name="blocker_second_4">Still want %1$s? Lift your thumb to close it.</string>
+    <string name="blocker_opening_5">Notice how fast your thumb opened %1$s.</string>
+    <string name="blocker_second_5">You already broke the reflex — you can stop here.</string>
+    <string name="blocker_opening_6">Protect tonight\'s sleep before your head hits the pillow.</string>
+    <string name="blocker_second_6">One lift now means earlier, better rest tonight.</string>
+    <string name="blocker_opening_7">Spend curiosity on creating, not endless scrolling.</string>
+    <string name="blocker_second_7">Close before the feed pulls away your best focus.</string>
+    <string name="blocker_opening_8">Drop your shoulders. Unclench your jaw. Exhale.</string>
+    <string name="blocker_second_8">Still continuing? Make sure it\'s an intentional choice.</string>
+    <string name="blocker_opening_9">What could you finish in 15 uninterrupted minutes?</string>
+    <string name="blocker_second_9">Closing takes zero effort. Opening costs attention.</string>
+    <string name="blocker_opening_10">At 3 hours a day, short feeds take 45 full days a year.</string>
+    <string name="blocker_second_10">Skip this scroll session and keep your evening yours.</string>
+    <string name="blocker_opening_11">Look at your reminder photo above.</string>
+    <string name="blocker_second_11">Choose what\'s in that photo over another random feed.</string>
+    <string name="blocker_opening_12">Did you open %1$s with a specific purpose?</string>
+    <string name="blocker_second_12">If you\'re only bored, closing now feels much better.</string>
+    <string name="blocker_opening_13">A brief pause beats twenty minutes lost.</string>
+    <string name="blocker_second_13">Release anytime if you changed your mind.</string>
+    <string name="blocker_opening_14">Fast video feeds keep your mind wired late into the day.</string>
+    <string name="blocker_second_14">Step away now and give your eyes a break.</string>
+    <string name="blocker_opening_15">Give your mind a quiet moment instead of noise.</string>
+    <string name="blocker_second_15">Lift your finger to protect that uninterrupted space.</string>
+    <string name="blocker_opening_16">Every paused urge makes focus easier tomorrow.</string>
+    <string name="blocker_second_16">Walk away now to keep your streak moving forward.</string>
+    <string name="blocker_opening_17">Your top goal today is worth more than one video.</string>
+    <string name="blocker_second_17">Confirm you truly want this break before entering.</string>
+    <string name="blocker_opening_18">Boredom passes in seconds; scrolling lasts for hours.</string>
+    <string name="blocker_second_18">Ride out the final moments — or close it free.</string>
+    <string name="blocker_opening_19">The life you\'re working toward happens off screen.</string>
+    <string name="blocker_second_19">Release gently and go back to what matters today.</string>
+    <string name="blocker_opening_20">Check in before the feed picks your next mood.</string>
+    <string name="blocker_second_20">Last moment before open: release to exit cleanly.</string>
+    <!-- More stock inspiration photos -->
+    <string name="starter_photo_misty_lake_title">Misty Lake</string>
+    <string name="starter_photo_misty_lake_caption">A quiet morning before the day starts</string>
+    <string name="starter_photo_desert_dunes_title">Desert Dunes</string>
+    <string name="starter_photo_desert_dunes_caption">Space to think, nowhere to scroll</string>
+    <string name="starter_photo_starry_meadow_title">Starry Meadow</string>
+    <string name="starter_photo_starry_meadow_caption">Screens off, stars on</string>
+    <string name="starter_photo_rolling_hills_title">Rolling Hills</string>
+    <string name="starter_photo_rolling_hills_caption">A long walk instead of a long feed</string>
+    <string name="starter_photo_snow_peaks_title">Snow Peaks</string>
+    <string name="starter_photo_snow_peaks_caption">Climb something real</string>
+    <string name="starter_photo_lavender_field_title">Lavender Field</string>
+    <string name="starter_photo_lavender_field_caption">Slow down and breathe it in</string>
+    <string name="photo_toggle_showing">Showing</string>
+    <string name="photo_toggle_hidden">Hidden</string>
+    <string name="photo_toggle_show_cd">Show this photo on the pause screen</string>
+    <string name="photo_toggle_hide_cd">Hide this photo from the pause screen</string>
+</resources>

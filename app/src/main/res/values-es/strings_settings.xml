@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings / Inspiration strings - Spanish. -->
+<resources>
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_replay_onboarding">Volver a ver la introducción</string>
+    <string name="settings_theme_light">Claro</string>
+    <string name="settings_theme_dark">Oscuro</string>
+    <string name="settings_theme_system">Sistema</string>
+    <string name="settings_appearance_label">APARIENCIA</string>
+    <string name="settings_inspiration_title">Inspiración</string>
+    <string name="settings_inspiration_summary">%1$s · %2$s</string>
+    <string name="settings_open">Abrir</string>
+    <string name="settings_protection_label">PROTECCIÓN DE APPS</string>
+    <string name="settings_permission_detect">Detectar apps protegidas</string>
+    <string name="settings_permission_pause">Mostrar pantalla de pausa</string>
+    <string name="settings_permission_insights">Estadísticas de tiempo de pantalla (opcional)</string>
+    <string name="settings_badge_active">ACTIVO</string>
+    <string name="settings_badge_enable">ACTIVAR</string>
+    <string name="settings_badge_allow">PERMITIR</string>
+    <string name="settings_pause_label">PREFERENCIAS DE PAUSA</string>
+    <string name="settings_pause_length">Duración predeterminada de la pausa</string>
+    <string name="settings_seconds_short">%1$d s</string>
+    <string name="settings_minutes_short">%1$d min</string>
+    <string name="settings_grace_every_open">Cada vez</string>
+    <string name="settings_reask">Volver a preguntar tras abrir</string>
+    <string name="settings_vibration">Vibración</string>
+    <string name="settings_quick_add_label">AÑADIR RECORDATORIO RÁPIDO</string>
+    <string name="settings_mantra_saved">Añadido a la rotación.</string>
+    <string name="settings_mantra_more">Más recordatorios e ideas en Inspiración.</string>
+    <string name="settings_add">Añadir</string>
+    <string name="settings_retry">Reintentar</string>
+    <string name="settings_error_load">No se pudieron cargar los ajustes.</string>
+    <string name="inspiration_title">Inspiración</string>
+    <string name="inspiration_subtitle">Recordatorios y fotos personales que te reciben antes de que se abra una app protegida.</string>
+    <string name="inspiration_back">Atrás</string>
+    <string name="inspiration_add_photo">+ Añadir foto de inspiración</string>
+    <string name="inspiration_preview_pause">Vista previa de la pantalla de pausa</string>
+    <string name="inspiration_caption_label">DESCRIBE TU FOTO</string>
+    <string name="inspiration_selected_preview_cd">Vista previa de la foto de inspiración seleccionada</string>
+    <string name="inspiration_caption_placeholder">¿Por qué importa esto hoy?</string>
+    <string name="inspiration_cancel">Cancelar</string>
+    <string name="inspiration_saving">Guardando…</string>
+    <string name="inspiration_save_photo">Guardar foto</string>
+    <string name="inspiration_photos_empty_title">Aún no hay fotos de inspiración</string>
+    <string name="inspiration_photos_empty_body">Añade una foto de alguien o algo que te importe para verla en tu pantalla de pausa.</string>
+    <string name="inspiration_remove">Quitar</string>
+    <string name="inspiration_show_photos_title">Mostrar fotos en la pantalla de pausa</string>
+    <string name="inspiration_show_photos_body">Muestra tu galería con suavidad cuando se abre una app</string>
+    <string name="inspiration_vary_prompts_title">Mensajes diarios para reflexionar</string>
+    <string name="inspiration_vary_prompts_body">Alterna preguntas de reflexión en silencio cada vez que abres</string>
+    <string name="inspiration_retry">Reintentar</string>
+    <string name="inspiration_error_load">No se pudo cargar tu pantalla de Inspiración.</string>
+    <string name="inspiration_error_photo_save">No se pudo guardar esa foto. Prueba con otra imagen.</string>
+    <string name="inspiration_reminders_title">Recordatorios personales</string>
+    <string name="inspiration_reminders_body">Aparecen al azar antes de que se abra una app protegida. Elige un tipo o toca una idea de abajo.</string>
+    <string name="inspiration_add_reminder">+ Añadir recordatorio</string>
+    <string name="inspiration_reminder_added">Añadido: aparecerá al azar en tu pantalla de pausa.</string>
+    <string name="inspiration_ideas_label">IDEAS: TOCA PARA USAR</string>
+    <string name="inspiration_reminders_empty">Aún no tienes recordatorios personales. Añade arriba metas, inspiraciones o señales para reenfocarte.</string>
+    <string name="inspiration_reminder_quoted">“%1$s”</string>
+    <plurals name="settings_photo_count">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotos</item>
+    </plurals>
+    <plurals name="settings_reminder_count">
+        <item quantity="one">%1$d recordatorio rotativo</item>
+        <item quantity="other">%1$d recordatorios rotativos</item>
+    </plurals>
+    <plurals name="inspiration_photo_badge">
+        <item quantity="one">%1$d FOTO</item>
+        <item quantity="other">%1$d FOTOS</item>
+    </plurals>
+    <plurals name="inspiration_reminders_saved_badge">
+        <item quantity="one">%1$d GUARDADO</item>
+        <item quantity="other">%1$d GUARDADOS</item>
+    </plurals>
+    <!-- Inspiration tabs -->
+    <string name="inspiration_tab_reminders">Recordatorios</string>
+    <string name="inspiration_tab_photos">Fotos</string>
+    <string name="inspiration_tab_pause">Pantalla de pausa</string>
+    <string name="inspiration_add_photo_tile">Añadir foto</string>
+    <string name="inspiration_remove_photo_cd">Quitar foto</string>
+</resources>

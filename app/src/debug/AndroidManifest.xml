@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Debug-only contact sheet of all 50 celebrations:
+             adb shell am start -n com.rotguard.app/.feature.shield.celebration.CelebrationGalleryActivity -\-ef t 0.7 -->
+        <activity
+            android:name=".feature.shield.celebration.CelebrationGalleryActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RotGuard" />
+    </application>
+</manifest>

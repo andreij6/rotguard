@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings / Inspiration strings - Simplified Chinese. -->
+<resources>
+    <string name="settings_title">设置</string>
+    <string name="settings_replay_onboarding">重新查看新手引导</string>
+    <string name="settings_theme_light">浅色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_theme_system">跟随系统</string>
+    <string name="settings_appearance_label">外观</string>
+    <string name="settings_inspiration_title">灵感</string>
+    <string name="settings_inspiration_summary">%1$s · %2$s</string>
+    <string name="settings_open">打开</string>
+    <string name="settings_protection_label">应用防护</string>
+    <string name="settings_permission_detect">检测受守护的应用</string>
+    <string name="settings_permission_pause">显示暂停页</string>
+    <string name="settings_permission_insights">屏幕时间洞察（可选）</string>
+    <string name="settings_badge_active">已开启</string>
+    <string name="settings_badge_enable">启用</string>
+    <string name="settings_badge_allow">去允许</string>
+    <string name="settings_pause_label">暂停偏好</string>
+    <string name="settings_pause_length">默认暂停时长</string>
+    <string name="settings_seconds_short">%1$d秒</string>
+    <string name="settings_minutes_short">%1$d分钟</string>
+    <string name="settings_grace_every_open">每次打开</string>
+    <string name="settings_reask">打开后多久再次询问</string>
+    <string name="settings_vibration">振动反馈</string>
+    <string name="settings_quick_add_label">快速添加提醒</string>
+    <string name="settings_mantra_saved">已加入轮换。</string>
+    <string name="settings_mantra_more">更多提醒和提示都在“灵感”中。</string>
+    <string name="settings_add">添加</string>
+    <string name="settings_retry">重试</string>
+    <string name="settings_error_load">无法加载设置。</string>
+    <string name="inspiration_title">灵感</string>
+    <string name="inspiration_subtitle">在受守护的应用打开前迎接你的个人提醒和照片。</string>
+    <string name="inspiration_back">返回</string>
+    <string name="inspiration_add_photo">+ 添加灵感照片</string>
+    <string name="inspiration_preview_pause">预览暂停页</string>
+    <string name="inspiration_caption_label">为照片添加说明</string>
+    <string name="inspiration_selected_preview_cd">已选灵感照片预览</string>
+    <string name="inspiration_caption_placeholder">这张照片今天为什么重要？</string>
+    <string name="inspiration_cancel">取消</string>
+    <string name="inspiration_saving">正在保存…</string>
+    <string name="inspiration_save_photo">保存照片</string>
+    <string name="inspiration_photos_empty_title">还没有灵感照片</string>
+    <string name="inspiration_photos_empty_body">添加一张你在乎的人或事物的照片，让它出现在暂停页上。</string>
+    <string name="inspiration_remove">移除</string>
+    <string name="inspiration_show_photos_title">在暂停页显示照片</string>
+    <string name="inspiration_show_photos_body">应用打开时，温和地展示你的照片</string>
+    <string name="inspiration_vary_prompts_title">每日贴心话语</string>
+    <string name="inspiration_vary_prompts_body">每次打开时悄悄轮换反思提示</string>
+    <string name="inspiration_retry">重试</string>
+    <string name="inspiration_error_load">无法加载灵感页面。</string>
+    <string name="inspiration_error_photo_save">无法保存这张照片，换一张试试吧。</string>
+    <string name="inspiration_reminders_title">个人提醒</string>
+    <string name="inspiration_reminders_body">会在受守护的应用打开前随机显示。选择一个类型，或点按下方的想法。</string>
+    <string name="inspiration_add_reminder">+ 添加提醒</string>
+    <string name="inspiration_reminder_added">已添加——它会在暂停页上随机轮换显示。</string>
+    <string name="inspiration_ideas_label">想法——点按即可使用</string>
+    <string name="inspiration_reminders_empty">还没有个人提醒——在上方添加目标、灵感或专注提示吧。</string>
+    <string name="inspiration_reminder_quoted">“%1$s”</string>
+    <plurals name="settings_photo_count">
+        <item quantity="other">%1$d 张照片</item>
+    </plurals>
+    <plurals name="settings_reminder_count">
+        <item quantity="other">%1$d 条轮换提醒</item>
+    </plurals>
+    <plurals name="inspiration_photo_badge">
+        <item quantity="other">%1$d 张照片</item>
+    </plurals>
+    <plurals name="inspiration_reminders_saved_badge">
+        <item quantity="other">已保存 %1$d 条</item>
+    </plurals>
+    <!-- Inspiration tabs -->
+    <string name="inspiration_tab_reminders">提醒</string>
+    <string name="inspiration_tab_photos">照片</string>
+    <string name="inspiration_tab_pause">暂停页</string>
+    <string name="inspiration_add_photo_tile">添加照片</string>
+    <string name="inspiration_remove_photo_cd">移除照片</string>
+</resources>

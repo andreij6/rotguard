@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pause screen (friction shield) shown over a guarded app, and its exit celebration. -->
+<resources>
+    <!-- %1$s = seconds with one decimal, already formatted for the locale (e.g. 3.2) -->
+    <string name="shield_seconds_short">%1$ss</string>
+    <string name="shield_close_app">Close %1$s</string>
+    <plurals name="shield_hold_to_continue">
+        <item quantity="one">HOLD %1$dS TO CONTINUE</item>
+        <item quantity="other">HOLD %1$dS TO CONTINUE</item>
+    </plurals>
+    <!-- %1$s = seconds left, formatted (e.g. 2.4) -->
+    <string name="shield_keep_holding">KEEP HOLDING · %1$sS</string>
+    <string name="shield_released_early_hint">Paused — hold steadily to enter, or close above.</string>
+    <string name="shield_close_above_hint">Close above to step back cleanly.</string>
+    <string name="shield_pause_app">Pause · %1$s</string>
+    <string name="shield_open_count_today">Open #%1$d today</string>
+    <string name="shield_pause_illustration">Quiet pause illustration</string>
+    <string name="shield_breathe_slowly">breathe slowly</string>
+    <string name="shield_quoted_mantra">“%1$s”</string>
+    <plurals name="shield_minutes_saved">
+        <item quantity="one">+%1$d min saved</item>
+        <item quantity="other">+%1$d min saved</item>
+    </plurals>
+    <plurals name="shield_stopped_today">
+        <item quantity="one">%1$d stopped today</item>
+        <item quantity="other">%1$d stopped today</item>
+    </plurals>
+    <string name="shield_nice_choice">Nice choice.\n%1$s closed.</string>
+    <string name="shield_back_to_what_matters">Back to what matters</string>
+    <string name="shield_returning_home">Returning home…</string>
+    <!-- Break offered on a repeat pause screen -->
+    <string name="shield_break_checkbox">Don\'t pause %1$s for a while</string>
+    <string name="shield_break_30">30 min</string>
+    <string name="shield_break_60">1 hr</string>
+    <string name="shield_break_120">2 hr</string>
+    <string name="shield_break_hint">Starts when you hold to continue.</string>
+    <string name="home_break_title">On a break</string>
+    <string name="home_break_until">%1$s · unpaused until %2$s</string>
+    <string name="home_break_resume">Resume pausing</string>
+</resources>

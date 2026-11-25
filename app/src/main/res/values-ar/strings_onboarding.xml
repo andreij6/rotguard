@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Header, navigation and errors -->
+    <string name="onboarding_badge_all_set">كل شيء جاهز</string>
+    <string name="onboarding_badge_step">الخطوة %1$d من %2$d</string>
+    <string name="onboarding_back">رجوع</string>
+    <string name="onboarding_cta_get_started">لنبدأ</string>
+    <string name="onboarding_cta_see_time_cost">اعرض كم يكلّفني من وقت</string>
+    <string name="onboarding_cta_set_focus_plan">ضع خطة تركيزي</string>
+    <string name="onboarding_cta_add_inspiration">إضافة صور الإلهام</string>
+    <string name="onboarding_cta_choose_apps">اختيار التطبيقات المحمية</string>
+    <string name="onboarding_cta_set_up_pause">إعداد التوقف المؤقت</string>
+    <string name="onboarding_cta_continue_final">المتابعة إلى الخطوة الأخيرة</string>
+    <string name="onboarding_cta_go_home">الانتقال إلى الرئيسية</string>
+    <string name="onboarding_pledge_bottom_hint">اضغط مطولًا على الشريط أعلاه لمدة 3 ثوانٍ للإنهاء</string>
+    <string name="onboarding_retry">إعادة المحاولة</string>
+    <string name="onboarding_error_load">تعذّر تحميل إعدادات البدء.</string>
+    <string name="onboarding_error_save">تعذّر حفظ التزامك بالتركيز.</string>
+    <string name="onboarding_error_photo">تعذّر تحميل هذه الصورة.</string>
+
+    <!-- Welcome -->
+    <string name="onboarding_welcome_headline">استعِد تركيزك من الخلاصات التي لا تنتهي.</string>
+    <string name="onboarding_welcome_subtitle">سواء كنت تستعد للامتحانات أو تلاحق موعد تسليم في العمل، يضيف RotGuard توقفًا قصيرًا قبل فتح التطبيقات المشتّتة، ليصبح التمرير اختيارًا لا ردّ فعل تلقائيًا.</string>
+    <string name="onboarding_welcome_illustration_cd">رسم هادئ لبرعم نبات</string>
+    <string name="onboarding_highlight_pause_title">توقف تلقائي</string>
+    <string name="onboarding_highlight_pause_body">يتدخّل قبل فتح التطبيقات المختارة.</string>
+    <string name="onboarding_highlight_hold_title">تأكيد بالضغط المطوّل</string>
+    <string name="onboarding_highlight_hold_body">يكسر النقرات التلقائية باهتزاز ملموس.</string>
+    <string name="onboarding_highlight_private_title">خصوصية تامة</string>
+    <string name="onboarding_highlight_private_body">تبقى كل بياناتك على هاتفك.</string>
+
+    <!-- Feed simulator -->
+    <string name="onboarding_simulator_headline">اشعر كيف تزداد الخلاصات التي لا تنتهي اندفاعًا.</string>
+    <string name="onboarding_simulator_subtitle">انقر على أي مستوى للتمرير اليومي أدناه لتشعر بتغيّر الاهتزاز.</string>
+    <string name="onboarding_simulator_vibration">إحساس الاهتزاز: %1$s</string>
+
+    <!-- Time audit -->
+    <string name="onboarding_audit_headline">كم من وقت التمرير اليومي تحاول مقاومته؟</string>
+    <plurals name="onboarding_audit_hours_a_day">
+        <item quantity="zero">بمعدل %1$d ساعة يوميًا</item>
+        <item quantity="one">بمعدل %1$d ساعة يوميًا</item>
+        <item quantity="two">بمعدل %1$d ساعتين يوميًا</item>
+        <item quantity="few">بمعدل %1$d ساعات يوميًا</item>
+        <item quantity="many">بمعدل %1$d ساعة يوميًا</item>
+        <item quantity="other">بمعدل %1$d ساعة يوميًا</item>
+    </plurals>
+    <string name="onboarding_audit_waking_years">%1$.1f سنة من ساعات اليقظة</string>
+    <plurals name="onboarding_audit_days_lost">
+        <item quantity="zero">هذا يعادل %1$d يوم كامل (24 ساعة) كل عام، أي ما يقارب %2$.1f سنة من ساعات اليقظة خلال الخمسين عامًا القادمة.</item>
+        <item quantity="one">هذا يعادل %1$d يوم كامل (24 ساعة) كل عام، أي ما يقارب %2$.1f سنة من ساعات اليقظة خلال الخمسين عامًا القادمة.</item>
+        <item quantity="two">هذا يعادل %1$d يومين كاملين (24 ساعة لكل يوم) كل عام، أي ما يقارب %2$.1f سنة من ساعات اليقظة خلال الخمسين عامًا القادمة.</item>
+        <item quantity="few">هذا يعادل %1$d أيام كاملة (24 ساعة لكل يوم) كل عام، أي ما يقارب %2$.1f سنة من ساعات اليقظة خلال الخمسين عامًا القادمة.</item>
+        <item quantity="many">هذا يعادل %1$d يومًا كاملًا (24 ساعة لكل يوم) كل عام، أي ما يقارب %2$.1f سنة من ساعات اليقظة خلال الخمسين عامًا القادمة.</item>
+        <item quantity="other">هذا يعادل %1$d يوم كامل (24 ساعة لكل يوم) كل عام، أي ما يقارب %2$.1f سنة من ساعات اليقظة خلال الخمسين عامًا القادمة.</item>
+    </plurals>
+    <string name="onboarding_audit_hours_chip">%1$d س</string>
+    <string name="onboarding_audit_hours_chip_max">%1$d+ س</string>
+    <string name="onboarding_audit_footer">تقليل نصف مرات الفتح الاندفاعية فقط يعيد إليك أسابيع من الوقت الحقيقي كل عام.</string>
+
+    <!-- Goals -->
+    <string name="onboarding_goals_headline">ثبّت سببك للتوقف.</string>
+    <string name="onboarding_goals_subtitle">تظهر أهدافك وتذكيرك بهدوء عندما تمدّ يدك إلى تطبيق محمي.</string>
+    <string name="onboarding_goals_peak_label">متى تكون الرغبة في التمرير أقوى؟</string>
+    <string name="onboarding_goals_mantra_label">أول تذكير شخصي</string>
+    <string name="onboarding_goals_mantra_support">يمكنك إضافة المزيد من الأهداف ومصادر الإلهام وتنبيهات استعادة التركيز في أي وقت.</string>
+
+    <!-- Inspiration photos -->
+    <string name="onboarding_inspiration_headline">أضِف صورًا تذكّرك بسببك.</string>
+    <string name="onboarding_inspiration_subtitle">تظهر صور الإلهام بلطف على شاشة التوقف المؤقت. احتفظ بمشاهدنا الهادئة أو أضِف صورك الخاصة.</string>
+    <string name="onboarding_inspiration_adding">جارٍ إضافة الصورة…</string>
+    <string name="onboarding_inspiration_add">+ إضافة صورة شخصية</string>
+    <string name="onboarding_inspiration_remove">إزالة</string>
+
+    <!-- App selection -->
+    <string name="onboarding_apps_headline">اختر التطبيقات التي تريد إضافة توقف مؤقت إليها.</string>
+    <string name="onboarding_apps_subtitle">تتوقف التطبيقات المختارة مع تذكيرك قبل أن تُفتح.</string>
+    <string name="onboarding_apps_badge_suggested">مقترح</string>
+    <string name="onboarding_apps_will_pause">سيتوقف مؤقتًا قبل الفتح</string>
+    <string name="onboarding_apps_opens_now">يُفتح فورًا</string>
+
+    <!-- Permissions -->
+    <string name="onboarding_permissions_headline">فعّل رصد التطبيقات للتوقف المؤقت.</string>
+    <string name="onboarding_permissions_subtitle">لا يتحقق RotGuard إلا من وقت فتح تطبيق محمي، كي يعرض شاشة التوقف المؤقت. ولا يقرأ أبدًا الرسائل أو محتوى الشاشة.</string>
+    <string name="onboarding_permissions_detect_title">1. رصد التطبيقات المحمية</string>
+    <string name="onboarding_permissions_detect_body">يتيح لـ RotGuard ملاحظة لحظة تشغيل تطبيق محمي مثل YouTube.</string>
+    <string name="onboarding_permissions_detect_button">تفعيل رصد التطبيقات</string>
+    <string name="onboarding_permissions_overlay_title">2. عرض شاشة التوقف المؤقت</string>
+    <string name="onboarding_permissions_overlay_body">يتيح لـ RotGuard عرض لحظة التوقف اللطيفة فوق التطبيقات المحمية.</string>
+    <string name="onboarding_permissions_overlay_button">السماح بشاشة التوقف المؤقت</string>
+    <string name="onboarding_permissions_badge_active">مفعّل</string>
+    <string name="onboarding_permissions_badge_needed">مطلوب</string>
+
+    <!-- Commitment pledge -->
+    <string name="onboarding_pledge_headline">ثبّت التزامك بالتركيز.</string>
+    <string name="onboarding_pledge_subtitle">جرّب كيف يبدو التوقف المؤقت عمليًا. اضغط مطولًا أدناه لمدة 3 ثوانٍ لإكمال الإعداد.</string>
+    <string name="onboarding_pledge_illustration_cd">برعم الالتزام بالتركيز</string>
+    <string name="onboarding_pledge_idle_label">اضغط مطولًا 3 ثوانٍ لإنهاء الإعداد</string>
+    <string name="onboarding_pledge_holding_label">جارٍ الضغط… %1$d%%</string>
+    <string name="onboarding_pledge_released_early">رفعت إصبعك مبكرًا، واصل الضغط بثبات لمدة 3 ثوانٍ.</string>
+
+    <!-- Complete -->
+    <string name="onboarding_complete_headline">كل شيء جاهز.</string>
+    <string name="onboarding_complete_illustration_cd">حديقة زجاجية جاهزة للتركيز</string>
+    <string name="onboarding_complete_badge">جاهز للتركيز اليومي</string>
+    <plurals name="onboarding_complete_guarded_apps">
+        <item quantity="zero">تم ضبط %1$d تطبيق على التوقف المؤقت قبل الفتح.</item>
+        <item quantity="one">تم ضبط %1$d تطبيق على التوقف المؤقت قبل الفتح.</item>
+        <item quantity="two">تم ضبط %1$d تطبيقين على التوقف المؤقت قبل الفتح.</item>
+        <item quantity="few">تم ضبط %1$d تطبيقات على التوقف المؤقت قبل الفتح.</item>
+        <item quantity="many">تم ضبط %1$d تطبيقًا على التوقف المؤقت قبل الفتح.</item>
+        <item quantity="other">تم ضبط %1$d تطبيق على التوقف المؤقت قبل الفتح.</item>
+    </plurals>
+    <string name="onboarding_complete_mantra_quote">«%1$s»</string>
+    <string name="onboarding_goals_mantra_done">تم</string>
+    <string name="onboarding_goals_mantra_empty_hint">انقر لكتابة تذكير يهمّك</string>
+</resources>

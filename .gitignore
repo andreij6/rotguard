@@ -1,0 +1,18 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+build/
+app/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+.droidforge/
+
+# Regenerable caches
+tools/tutorials/tts-cache/
+__pycache__/
+*.pyc
+.claude/

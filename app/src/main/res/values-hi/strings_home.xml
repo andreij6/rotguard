@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_home">होम</string>
+    <string name="nav_apps">ऐप्स</string>
+    <string name="nav_insights">इनसाइट्स</string>
+    <string name="nav_settings">सेटिंग</string>
+
+    <string name="home_retry">फिर कोशिश करें</string>
+    <string name="home_two_parts">%1$s · %2$s</string>
+    <string name="home_minutes_short">%1$d मि.</string>
+
+    <string name="dashboard_title">होम</string>
+    <string name="dashboard_status_active">चालू</string>
+    <string name="dashboard_status_paused">रुका हुआ</string>
+    <string name="dashboard_setup_label">सेटअप पूरा करें</string>
+    <string name="dashboard_setup_body">ऐप पहचान और विराम स्क्रीन का ऐक्सेस चालू करें, ताकि RotGuard ब्लॉक किए गए ऐप्स पर विराम लगा सके।</string>
+    <string name="dashboard_setup_button">सुरक्षा चालू करें</string>
+    <string name="dashboard_medallion_description">फ़ोकस हेल्थ का पौधों वाला टेरारियम</string>
+    <string name="dashboard_health_percent">%1$d%%</string>
+    <string name="dashboard_focus_health">फ़ोकस हेल्थ</string>
+    <string name="dashboard_stage_thriving">आज फ़ोकस बढ़िया है</string>
+    <string name="dashboard_stage_alert">लय बनी हुई है</string>
+    <string name="dashboard_stage_strained">कुछ आवेग निकल गए</string>
+    <string name="dashboard_stage_reset">थोड़ा रुककर फिर से शुरू करने का समय</string>
+    <plurals name="dashboard_hero_summary">
+        <item quantity="one">%1$s · आज %2$d मिनट बचाया</item>
+        <item quantity="other">%1$s · आज %2$d मिनट बचाए</item>
+    </plurals>
+    <string name="dashboard_kpi_urges_stopped">रोके गए आवेग</string>
+    <string name="dashboard_kpi_time_saved">बचाया गया समय</string>
+    <plurals name="dashboard_photo_count">
+        <item quantity="one">%1$d फ़ोटो</item>
+        <item quantity="other">%1$d फ़ोटो</item>
+    </plurals>
+    <plurals name="dashboard_reminder_count">
+        <item quantity="one">%1$d रिमाइंडर</item>
+        <item quantity="other">%1$d रिमाइंडर</item>
+    </plurals>
+    <string name="dashboard_manage">मैनेज करें</string>
+    <string name="dashboard_inspiration_fallback">प्रेरणा</string>
+    <string name="dashboard_mantra_quoted">“%1$s”</string>
+    <string name="dashboard_no_apps">अभी कोई ऐप ब्लॉक नहीं है — चुनने के लिए टैप करें।</string>
+    <string name="dashboard_paused_apps">रोके गए ऐप्स: %1$s</string>
+    <string name="dashboard_test_blocker">विराम स्क्रीन आज़माएं</string>
+    <string name="dashboard_edit">बदलें</string>
+    <string name="dashboard_error_load">होम लोड नहीं हो सका। कृपया फिर कोशिश करें।</string>
+
+    <string name="insights_title">इनसाइट्स</string>
+    <string name="insights_duel_label">रोज़ की तुलना</string>
+    <string name="insights_duel_ahead">आप अपने रोज़ के औसत से आगे हैं</string>
+    <string name="insights_duel_behind">आज ऐप काफ़ी बार खुले</string>
+    <string name="insights_duel_body">ज़्यादा स्क्रॉल वाले आम दिन की तुलना में कम विराम छोड़े गए।</string>
+    <string name="insights_your_opens">आपने खोला</string>
+    <string name="insights_vs">बनाम</string>
+    <string name="insights_daily_avg">रोज़ का औसत</string>
+    <string name="insights_trend_title">7 दिन की फ़ोकस हेल्थ</string>
+    <plurals name="insights_week_minutes_saved">
+        <item quantity="one">%1$d मिनट बचाया</item>
+        <item quantity="other">%1$d मिनट बचाए</item>
+    </plurals>
+    <string name="insights_most_closed">आज सबसे ज़्यादा बंद किए गए</string>
+    <string name="insights_empty">आज अभी तक कोई भटकाव रोका नहीं गया। आपकी सुरक्षा चालू है।</string>
+    <plurals name="insights_closed_count">
+        <item quantity="one">%1$d बार बंद किया</item>
+        <item quantity="other">%1$d बार बंद किया</item>
+    </plurals>
+    <plurals name="insights_opened_count">
+        <item quantity="one">%1$d बार खोला</item>
+        <item quantity="other">%1$d बार खोला</item>
+    </plurals>
+    <plurals name="insights_app_minutes_saved">
+        <item quantity="one">%1$d मिनट बचाया</item>
+        <item quantity="other">%1$d मिनट बचाए</item>
+    </plurals>
+    <string name="insights_error_load">इस हफ़्ते की इनसाइट्स लोड नहीं हो सकीं। कृपया फिर कोशिश करें।</string>
+
+    <string name="apps_title">ब्लॉक किए गए ऐप्स</string>
+    <plurals name="apps_active_count">
+        <item quantity="one">%1$d चालू</item>
+        <item quantity="other">%1$d चालू</item>
+    </plurals>
+    <string name="apps_search_placeholder">इंस्टॉल किए गए ऐप्स खोजें…</string>
+    <string name="apps_pause_length">विराम की अवधि</string>
+    <string name="apps_seconds_short">%1$d से.</string>
+    <string name="apps_suggested">सुझाया गया</string>
+    <plurals name="apps_hold_seconds">
+        <item quantity="one">%1$d सेकंड का विराम</item>
+        <item quantity="other">%1$d सेकंड का विराम</item>
+    </plurals>
+    <string name="apps_not_paused">विराम नहीं</string>
+    <string name="apps_icon_description">%1$s आइकॉन</string>
+    <string name="apps_error_load">इंस्टॉल किए गए ऐप्स लोड नहीं हो सके। कृपया फिर कोशिश करें।</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Header, navigation and errors -->
+    <string name="onboarding_badge_all_set">TODO LISTO</string>
+    <string name="onboarding_badge_step">PASO %1$d DE %2$d</string>
+    <string name="onboarding_back">Atrás</string>
+    <string name="onboarding_cta_get_started">Empezar</string>
+    <string name="onboarding_cta_see_time_cost">Ver cuánto tiempo me cuesta</string>
+    <string name="onboarding_cta_set_focus_plan">Crear mi plan de concentración</string>
+    <string name="onboarding_cta_add_inspiration">Añadir fotos de inspiración</string>
+    <string name="onboarding_cta_choose_apps">Elegir apps protegidas</string>
+    <string name="onboarding_cta_set_up_pause">Configurar la pausa</string>
+    <string name="onboarding_cta_continue_final">Ir al último paso</string>
+    <string name="onboarding_cta_go_home">Ir a Inicio</string>
+    <string name="onboarding_pledge_bottom_hint">Mantén pulsada la barra de arriba 3 segundos para terminar</string>
+    <string name="onboarding_retry">Reintentar</string>
+    <string name="onboarding_error_load">No se pudo cargar la configuración inicial.</string>
+    <string name="onboarding_error_save">No se pudo guardar tu compromiso.</string>
+    <string name="onboarding_error_photo">No se pudo cargar esa foto.</string>
+
+    <!-- Welcome -->
+    <string name="onboarding_welcome_headline">Recupera tu concentración de los feeds infinitos.</string>
+    <string name="onboarding_welcome_subtitle">Ya sea que estés preparando exámenes o persiguiendo una fecha de entrega, RotGuard añade una breve pausa antes de que se abran las apps que te distraen, para que hacer scroll sea una elección y no un reflejo.</string>
+    <string name="onboarding_welcome_illustration_cd">Ilustración de un brote tranquilo</string>
+    <string name="onboarding_highlight_pause_title">Pausa automática</string>
+    <string name="onboarding_highlight_pause_body">Interviene antes de que se abran las apps elegidas.</string>
+    <string name="onboarding_highlight_hold_title">Mantén pulsado para confirmar</string>
+    <string name="onboarding_highlight_hold_body">Corta los toques por reflejo con una vibración táctil.</string>
+    <string name="onboarding_highlight_private_title">Totalmente privado</string>
+    <string name="onboarding_highlight_private_body">Todo se queda en tu teléfono.</string>
+
+    <!-- Feed simulator -->
+    <string name="onboarding_simulator_headline">Siente cómo los feeds infinitos ganan impulso.</string>
+    <string name="onboarding_simulator_subtitle">Toca cualquier nivel de scroll diario para sentir cómo cambia la vibración.</string>
+    <string name="onboarding_simulator_vibration">Sensación de vibración: %1$s</string>
+
+    <!-- Time audit -->
+    <string name="onboarding_audit_headline">¿Contra cuánto tiempo diario de scroll estás luchando?</string>
+    <plurals name="onboarding_audit_hours_a_day">
+        <item quantity="one">CON %1$d HORA AL DÍA</item>
+        <item quantity="other">CON %1$d HORAS AL DÍA</item>
+    </plurals>
+    <string name="onboarding_audit_waking_years">%1$.1f años de vigilia</string>
+    <plurals name="onboarding_audit_days_lost">
+        <item quantity="one">Eso equivale a %1$d día completo de 24 horas cada año: casi %2$.1f años de vigilia en los próximos 50 años.</item>
+        <item quantity="other">Eso equivale a %1$d días completos de 24 horas cada año: casi %2$.1f años de vigilia en los próximos 50 años.</item>
+    </plurals>
+    <string name="onboarding_audit_hours_chip">%1$d h</string>
+    <string name="onboarding_audit_hours_chip_max">%1$d h+</string>
+    <string name="onboarding_audit_footer">Reducir solo la mitad de esas aperturas impulsivas te devuelve semanas de tiempo real cada año.</string>
+
+    <!-- Goals -->
+    <string name="onboarding_goals_headline">Ancla tu motivo para hacer una pausa.</string>
+    <string name="onboarding_goals_subtitle">Tus metas y tu recordatorio aparecen en silencio cuando vas a abrir una app protegida.</string>
+    <string name="onboarding_goals_peak_label">¿CUÁNDO ES MÁS FUERTE LA TENTACIÓN?</string>
+    <string name="onboarding_goals_mantra_label">Primer recordatorio personal</string>
+    <string name="onboarding_goals_mantra_support">Puedes añadir más metas, inspiraciones y señales para reenfocarte cuando quieras.</string>
+
+    <!-- Inspiration photos -->
+    <string name="onboarding_inspiration_headline">Añade fotos que te recuerden por qué.</string>
+    <string name="onboarding_inspiration_subtitle">Tus fotos de inspiración aparecen con suavidad en tu pantalla de pausa. Quédate con nuestras escenas tranquilas o añade las tuyas.</string>
+    <string name="onboarding_inspiration_adding">Añadiendo foto…</string>
+    <string name="onboarding_inspiration_add">+ Añadir foto personal</string>
+    <string name="onboarding_inspiration_remove">Quitar</string>
+
+    <!-- App selection -->
+    <string name="onboarding_apps_headline">Elige las apps a las que añadir una pausa.</string>
+    <string name="onboarding_apps_subtitle">Las apps elegidas hacen una pausa con tu recordatorio antes de abrirse.</string>
+    <string name="onboarding_apps_badge_suggested">SUGERIDA</string>
+    <string name="onboarding_apps_will_pause">Hará una pausa antes de abrirse</string>
+    <string name="onboarding_apps_opens_now">Se abre al instante</string>
+
+    <!-- Permissions -->
+    <string name="onboarding_permissions_headline">Activa la detección de apps.</string>
+    <string name="onboarding_permissions_subtitle">RotGuard solo comprueba cuándo se abre una app protegida para poder mostrar tu pantalla de pausa. Nunca lee mensajes ni el contenido de la pantalla.</string>
+    <string name="onboarding_permissions_detect_title">1. Detectar apps protegidas</string>
+    <string name="onboarding_permissions_detect_body">Permite que RotGuard note justo cuándo se abre una app protegida como YouTube.</string>
+    <string name="onboarding_permissions_detect_button">Activar detección de apps</string>
+    <string name="onboarding_permissions_overlay_title">2. Mostrar la pantalla de pausa</string>
+    <string name="onboarding_permissions_overlay_body">Permite que RotGuard muestre tu suave pausa de confirmación encima de las apps protegidas.</string>
+    <string name="onboarding_permissions_overlay_button">Permitir pantalla de pausa</string>
+    <string name="onboarding_permissions_badge_active">ACTIVO</string>
+    <string name="onboarding_permissions_badge_needed">NECESARIO</string>
+
+    <!-- Commitment pledge -->
+    <string name="onboarding_pledge_headline">Sella tu compromiso de concentración.</string>
+    <string name="onboarding_pledge_subtitle">Prueba cómo se siente una pausa en la práctica. Mantén pulsado abajo 3 segundos para completar la configuración.</string>
+    <string name="onboarding_pledge_illustration_cd">Brote del compromiso de concentración</string>
+    <string name="onboarding_pledge_idle_label">MANTÉN PULSADO 3 S PARA TERMINAR</string>
+    <string name="onboarding_pledge_holding_label">MANTENIENDO… %1$d%%</string>
+    <string name="onboarding_pledge_released_early">Lo soltaste antes de tiempo: mantén pulsado con calma durante 3 segundos.</string>
+
+    <!-- Complete -->
+    <string name="onboarding_complete_headline">Todo listo.</string>
+    <string name="onboarding_complete_illustration_cd">Terrario listo para la concentración</string>
+    <string name="onboarding_complete_badge">LISTO PARA CONCENTRARTE CADA DÍA</string>
+    <plurals name="onboarding_complete_guarded_apps">
+        <item quantity="one">%1$d app hará una pausa antes de abrirse.</item>
+        <item quantity="other">%1$d apps harán una pausa antes de abrirse.</item>
+    </plurals>
+    <string name="onboarding_complete_mantra_quote">«%1$s»</string>
+    <string name="onboarding_goals_mantra_done">Listo</string>
+    <string name="onboarding_goals_mantra_empty_hint">Toca para escribir un recordatorio que te importe</string>
+</resources>

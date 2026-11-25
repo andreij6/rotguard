@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Languages offered in Android 13+ Settings > Apps > RotGuard > Language. Keep in sync with values-* folders. -->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en" />
+    <locale android:name="zh-CN" />
+    <locale android:name="hi" />
+    <locale android:name="es" />
+    <locale android:name="ar" />
+</locale-config>

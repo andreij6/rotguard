@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Header, navigation and errors -->
+    <string name="onboarding_badge_all_set">全部就绪</string>
+    <string name="onboarding_badge_step">第 %1$d 步，共 %2$d 步</string>
+    <string name="onboarding_back">返回</string>
+    <string name="onboarding_cta_get_started">开始</string>
+    <string name="onboarding_cta_see_time_cost">看看我的时间成本</string>
+    <string name="onboarding_cta_set_focus_plan">制定我的专注计划</string>
+    <string name="onboarding_cta_add_inspiration">添加灵感照片</string>
+    <string name="onboarding_cta_choose_apps">选择受守护的应用</string>
+    <string name="onboarding_cta_set_up_pause">设置应用暂停</string>
+    <string name="onboarding_cta_continue_final">继续最后一步</string>
+    <string name="onboarding_cta_go_home">前往首页</string>
+    <string name="onboarding_pledge_bottom_hint">长按上方的进度条 3 秒即可完成</string>
+    <string name="onboarding_retry">重试</string>
+    <string name="onboarding_error_load">无法加载引导设置。</string>
+    <string name="onboarding_error_save">无法保存你的专注承诺。</string>
+    <string name="onboarding_error_photo">无法加载这张照片。</string>
+
+    <!-- Welcome -->
+    <string name="onboarding_welcome_headline">从无尽的信息流中夺回你的专注。</string>
+    <string name="onboarding_welcome_subtitle">无论你在备考还是在赶工作截止日期，RotGuard 都会在容易分心的应用打开前加入短暂的暂停，让刷屏成为一种选择，而不是条件反射。</string>
+    <string name="onboarding_welcome_illustration_cd">宁静的植物嫩芽插图</string>
+    <string name="onboarding_highlight_pause_title">自动暂停</string>
+    <string name="onboarding_highlight_pause_body">在所选应用打开前介入。</string>
+    <string name="onboarding_highlight_hold_title">长按确认</string>
+    <string name="onboarding_highlight_hold_body">用触感振动打断条件反射式的点击。</string>
+    <string name="onboarding_highlight_private_title">完全私密</string>
+    <string name="onboarding_highlight_private_body">所有数据都只保存在你的手机上。</string>
+
+    <!-- Feed simulator -->
+    <string name="onboarding_simulator_headline">感受无尽的信息流如何越刷越停不下来。</string>
+    <string name="onboarding_simulator_subtitle">点击下方任意每日刷屏量，感受振动的变化。</string>
+    <string name="onboarding_simulator_vibration">振动感受：%1$s</string>
+
+    <!-- Time audit -->
+    <string name="onboarding_audit_headline">你每天要对抗多少刷屏时间？</string>
+    <plurals name="onboarding_audit_hours_a_day">
+        <item quantity="other">每天 %1$d 小时</item>
+    </plurals>
+    <string name="onboarding_audit_waking_years">%1$.1f 年清醒时光</string>
+    <plurals name="onboarding_audit_days_lost">
+        <item quantity="other">这相当于每年整整 %1$d 天（每天 24 小时）——未来 50 年里将近 %2$.1f 年的清醒时光。</item>
+    </plurals>
+    <string name="onboarding_audit_hours_chip">%1$d小时</string>
+    <string name="onboarding_audit_hours_chip_max">%1$d小时+</string>
+    <string name="onboarding_audit_footer">哪怕只减少一半的冲动打开，每年也能找回好几周的真实时间。</string>
+
+    <!-- Goals -->
+    <string name="onboarding_goals_headline">为暂停找到你的理由。</string>
+    <string name="onboarding_goals_subtitle">当你伸手打开受守护的应用时，你的目标和提醒会静静出现。</string>
+    <string name="onboarding_goals_peak_label">什么时候最容易被诱惑？</string>
+    <string name="onboarding_goals_mantra_label">第一条个人提醒</string>
+    <string name="onboarding_goals_mantra_support">你随时可以添加更多目标、灵感和重新专注提示。</string>
+
+    <!-- Inspiration photos -->
+    <string name="onboarding_inspiration_headline">添加能提醒你初心的照片。</string>
+    <string name="onboarding_inspiration_subtitle">你的灵感照片会温和地出现在暂停页上。可以保留我们准备的宁静风景，也可以添加你自己的照片。</string>
+    <string name="onboarding_inspiration_adding">正在添加照片…</string>
+    <string name="onboarding_inspiration_add">+ 添加个人照片</string>
+    <string name="onboarding_inspiration_remove">移除</string>
+
+    <!-- App selection -->
+    <string name="onboarding_apps_headline">选择要加入暂停的应用。</string>
+    <string name="onboarding_apps_subtitle">所选应用在打开前会先暂停，并显示你的提醒。</string>
+    <string name="onboarding_apps_badge_suggested">推荐</string>
+    <string name="onboarding_apps_will_pause">打开前会暂停</string>
+    <string name="onboarding_apps_opens_now">直接打开</string>
+
+    <!-- Permissions -->
+    <string name="onboarding_permissions_headline">开启应用暂停检测。</string>
+    <string name="onboarding_permissions_subtitle">RotGuard 只会在受守护的应用打开时进行检测，以便显示你的暂停页。它从不读取消息或屏幕内容。</string>
+    <string name="onboarding_permissions_detect_title">1. 检测受守护的应用</string>
+    <string name="onboarding_permissions_detect_body">让 RotGuard 在 YouTube 等受守护的应用启动时立即察觉。</string>
+    <string name="onboarding_permissions_detect_button">启用应用检测</string>
+    <string name="onboarding_permissions_overlay_title">2. 显示暂停页</string>
+    <string name="onboarding_permissions_overlay_body">让 RotGuard 在受守护的应用上层显示温和的暂停确认。</string>
+    <string name="onboarding_permissions_overlay_button">允许显示暂停页</string>
+    <string name="onboarding_permissions_badge_active">已开启</string>
+    <string name="onboarding_permissions_badge_needed">需要开启</string>
+
+    <!-- Commitment pledge -->
+    <string name="onboarding_pledge_headline">许下你的专注承诺。</string>
+    <string name="onboarding_pledge_subtitle">亲身体验一下暂停的感觉。长按下方 3 秒即可完成设置。</string>
+    <string name="onboarding_pledge_illustration_cd">专注承诺嫩芽</string>
+    <string name="onboarding_pledge_idle_label">长按 3 秒完成设置</string>
+    <string name="onboarding_pledge_holding_label">按住中… %1$d%%</string>
+    <string name="onboarding_pledge_released_early">松手太早了——请稳稳按住 3 秒。</string>
+
+    <!-- Complete -->
+    <string name="onboarding_complete_headline">一切就绪。</string>
+    <string name="onboarding_complete_illustration_cd">专注就绪的植物生态瓶</string>
+    <string name="onboarding_complete_badge">准备好每天专注</string>
+    <plurals name="onboarding_complete_guarded_apps">
+        <item quantity="other">已有 %1$d 个应用设置为打开前暂停。</item>
+    </plurals>
+    <string name="onboarding_complete_mantra_quote">“%1$s”</string>
+    <string name="onboarding_goals_mantra_done">完成</string>
+    <string name="onboarding_goals_mantra_empty_hint">轻点写下一条对你重要的提醒</string>
+</resources>

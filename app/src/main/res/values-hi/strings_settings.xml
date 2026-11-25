@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings / Inspiration strings - Hindi. -->
+<resources>
+    <string name="settings_title">सेटिंग</string>
+    <string name="settings_replay_onboarding">ऑनबोर्डिंग फिर से देखें</string>
+    <string name="settings_theme_light">लाइट</string>
+    <string name="settings_theme_dark">डार्क</string>
+    <string name="settings_theme_system">सिस्टम</string>
+    <string name="settings_appearance_label">थीम</string>
+    <string name="settings_inspiration_title">प्रेरणा</string>
+    <string name="settings_inspiration_summary">%1$s · %2$s</string>
+    <string name="settings_open">खोलें</string>
+    <string name="settings_protection_label">ऐप सुरक्षा</string>
+    <string name="settings_permission_detect">सुरक्षित ऐप्स पहचानें</string>
+    <string name="settings_permission_pause">विराम स्क्रीन दिखाएं</string>
+    <string name="settings_permission_insights">स्क्रीन टाइम इनसाइट्स (वैकल्पिक)</string>
+    <string name="settings_badge_active">चालू</string>
+    <string name="settings_badge_enable">चालू करें</string>
+    <string name="settings_badge_allow">अनुमति दें</string>
+    <string name="settings_pause_label">विराम की पसंद</string>
+    <string name="settings_pause_length">डिफ़ॉल्ट विराम अवधि</string>
+    <string name="settings_seconds_short">%1$d से॰</string>
+    <string name="settings_minutes_short">%1$d मि॰</string>
+    <string name="settings_grace_every_open">हर बार</string>
+    <string name="settings_reask">खोलने के बाद दोबारा कब पूछें</string>
+    <string name="settings_vibration">वाइब्रेशन फ़ीडबैक</string>
+    <string name="settings_quick_add_label">झटपट रिमाइंडर जोड़ें</string>
+    <string name="settings_mantra_saved">रोटेशन में जोड़ दिया गया।</string>
+    <string name="settings_mantra_more">और रिमाइंडर व सुझाव प्रेरणा में हैं।</string>
+    <string name="settings_add">जोड़ें</string>
+    <string name="settings_retry">फिर से कोशिश करें</string>
+    <string name="settings_error_load">सेटिंग लोड नहीं हो सकीं।</string>
+    <string name="inspiration_title">प्रेरणा</string>
+    <string name="inspiration_subtitle">निजी रिमाइंडर और फ़ोटो, जो सुरक्षित ऐप खुलने से पहले आपका स्वागत करते हैं।</string>
+    <string name="inspiration_back">वापस</string>
+    <string name="inspiration_add_photo">+ प्रेरणा फ़ोटो जोड़ें</string>
+    <string name="inspiration_preview_pause">विराम स्क्रीन की झलक देखें</string>
+    <string name="inspiration_caption_label">फ़ोटो का कैप्शन लिखें</string>
+    <string name="inspiration_selected_preview_cd">चुनी गई प्रेरणा फ़ोटो की झलक</string>
+    <string name="inspiration_caption_placeholder">आज यह क्यों मायने रखता है?</string>
+    <string name="inspiration_cancel">रद्द करें</string>
+    <string name="inspiration_saving">सेव हो रहा है…</string>
+    <string name="inspiration_save_photo">फ़ोटो सेव करें</string>
+    <string name="inspiration_photos_empty_title">अभी कोई प्रेरणा फ़ोटो नहीं है</string>
+    <string name="inspiration_photos_empty_body">किसी ऐसे व्यक्ति या चीज़ की फ़ोटो जोड़ें जिसकी आपको परवाह है, ताकि वह आपकी विराम स्क्रीन पर रहे।</string>
+    <string name="inspiration_remove">हटाएं</string>
+    <string name="inspiration_show_photos_title">विराम स्क्रीन पर फ़ोटो दिखाएं</string>
+    <string name="inspiration_show_photos_body">ऐप खुलने पर आपकी गैलरी सहजता से दिखाएं</string>
+    <string name="inspiration_vary_prompts_title">हर दिन के सोच-समझे संदेश</string>
+    <string name="inspiration_vary_prompts_body">हर बार खोलने पर चुपचाप नए विचार-प्रश्न दिखाएं</string>
+    <string name="inspiration_retry">फिर से कोशिश करें</string>
+    <string name="inspiration_error_load">प्रेरणा स्क्रीन लोड नहीं हो सकी।</string>
+    <string name="inspiration_error_photo_save">वह फ़ोटो सेव नहीं हो सकी। कोई दूसरी इमेज आज़माएं।</string>
+    <string name="inspiration_reminders_title">निजी रिमाइंडर</string>
+    <string name="inspiration_reminders_body">सुरक्षित ऐप खुलने से पहले ये बारी-बारी से कभी भी दिखते हैं। कोई प्रकार चुनें या नीचे किसी सुझाव पर टैप करें।</string>
+    <string name="inspiration_add_reminder">+ रिमाइंडर जोड़ें</string>
+    <string name="inspiration_reminder_added">जोड़ दिया गया — यह आपकी विराम स्क्रीन पर बारी-बारी से दिखेगा।</string>
+    <string name="inspiration_ideas_label">सुझाव — इस्तेमाल करने के लिए टैप करें</string>
+    <string name="inspiration_reminders_empty">अभी कोई निजी रिमाइंडर नहीं है — ऊपर लक्ष्य, प्रेरणाएं या फ़ोकस लौटाने वाले संकेत जोड़ें।</string>
+    <string name="inspiration_reminder_quoted">“%1$s”</string>
+    <plurals name="settings_photo_count">
+        <item quantity="one">%1$d फ़ोटो</item>
+        <item quantity="other">%1$d फ़ोटो</item>
+    </plurals>
+    <plurals name="settings_reminder_count">
+        <item quantity="one">%1$d बदलता रिमाइंडर</item>
+        <item quantity="other">%1$d बदलते रिमाइंडर</item>
+    </plurals>
+    <plurals name="inspiration_photo_badge">
+        <item quantity="one">%1$d फ़ोटो</item>
+        <item quantity="other">%1$d फ़ोटो</item>
+    </plurals>
+    <plurals name="inspiration_reminders_saved_badge">
+        <item quantity="one">%1$d सेव किया</item>
+        <item quantity="other">%1$d सेव किए</item>
+    </plurals>
+    <!-- Inspiration tabs -->
+    <string name="inspiration_tab_reminders">रिमाइंडर</string>
+    <string name="inspiration_tab_photos">फ़ोटो</string>
+    <string name="inspiration_tab_pause">विराम स्क्रीन</string>
+    <string name="inspiration_add_photo_tile">फ़ोटो जोड़ें</string>
+    <string name="inspiration_remove_photo_cd">फ़ोटो हटाएं</string>
+</resources>

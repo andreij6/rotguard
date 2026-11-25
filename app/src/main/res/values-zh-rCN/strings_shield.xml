@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shield_seconds_short">%1$s 秒</string>
+    <string name="shield_close_app">关闭 %1$s</string>
+    <plurals name="shield_hold_to_continue">
+        <item quantity="other">长按 %1$d 秒以继续</item>
+    </plurals>
+    <string name="shield_keep_holding">继续按住 · %1$s 秒</string>
+    <string name="shield_released_early_hint">已暂停——稳稳按住即可进入，或点上方按钮关闭。</string>
+    <string name="shield_close_above_hint">点上方按钮，轻松退一步。</string>
+    <string name="shield_pause_app">暂停 · %1$s</string>
+    <string name="shield_open_count_today">今天第 %1$d 次打开</string>
+    <string name="shield_pause_illustration">安静的暂停插图</string>
+    <string name="shield_breathe_slowly">慢慢呼吸</string>
+    <string name="shield_quoted_mantra">“%1$s”</string>
+    <plurals name="shield_minutes_saved">
+        <item quantity="other">节省 +%1$d 分钟</item>
+    </plurals>
+    <plurals name="shield_stopped_today">
+        <item quantity="other">今天已忍住 %1$d 次</item>
+    </plurals>
+    <string name="shield_nice_choice">好选择。\n已关闭 %1$s。</string>
+    <string name="shield_back_to_what_matters">回到重要的事</string>
+    <string name="shield_returning_home">正在返回主屏幕…</string>
+    <!-- Break offered on a repeat pause screen -->
+    <string name="shield_break_checkbox">暂时不暂停%1$s</string>
+    <string name="shield_break_30">30 分钟</string>
+    <string name="shield_break_60">1 小时</string>
+    <string name="shield_break_120">2 小时</string>
+    <string name="shield_break_hint">按住继续后开始生效。</string>
+    <string name="home_break_title">休息中</string>
+    <string name="home_break_until">%1$s · %2$s 前不暂停</string>
+    <string name="home_break_resume">恢复暂停</string>
+</resources>

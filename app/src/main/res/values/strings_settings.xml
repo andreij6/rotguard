@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings / Inspiration strings - English (default). -->
+<resources>
+    <string name="settings_title">Settings</string>
+    <string name="settings_replay_onboarding">Replay Onboarding</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_appearance_label">APPEARANCE</string>
+    <string name="settings_inspiration_title">Inspiration</string>
+    <string name="settings_inspiration_summary">%1$s · %2$s</string>
+    <string name="settings_open">Open</string>
+    <string name="settings_protection_label">APP PROTECTION</string>
+    <string name="settings_permission_detect">Detect Blocked Apps</string>
+    <string name="settings_permission_pause">Show Pause Screen</string>
+    <string name="settings_permission_insights">Screen Time Insights (Optional)</string>
+    <string name="settings_badge_active">ACTIVE</string>
+    <string name="settings_badge_enable">ENABLE</string>
+    <string name="settings_badge_allow">ALLOW</string>
+    <string name="settings_pause_label">PAUSE PREFERENCES</string>
+    <string name="settings_pause_length">Default pause length</string>
+    <string name="settings_seconds_short">%1$ds</string>
+    <string name="settings_minutes_short">%1$dm</string>
+    <string name="settings_grace_every_open">Every open</string>
+    <string name="settings_reask">Re-ask after opening</string>
+    <string name="settings_vibration">Vibration feedback</string>
+    <string name="settings_quick_add_label">QUICK ADD REMINDER</string>
+    <string name="settings_mantra_saved">Added to rotation.</string>
+    <string name="settings_mantra_more">More reminders &amp; hints in Inspiration.</string>
+    <string name="settings_add">Add</string>
+    <string name="settings_retry">Retry</string>
+    <string name="settings_error_load">Unable to load settings.</string>
+    <string name="inspiration_title">Inspiration</string>
+    <string name="inspiration_subtitle">Personal reminders and photos that greet you before a blocked app opens.</string>
+    <string name="inspiration_back">Back</string>
+    <string name="inspiration_add_photo">+ Add Inspiration Photo</string>
+    <string name="inspiration_preview_pause">Preview Pause Screen</string>
+    <string name="inspiration_caption_label">CAPTION YOUR PHOTO</string>
+    <string name="inspiration_selected_preview_cd">Selected inspiration preview</string>
+    <string name="inspiration_caption_placeholder">Why does this matter today?</string>
+    <string name="inspiration_cancel">Cancel</string>
+    <string name="inspiration_saving">Saving…</string>
+    <string name="inspiration_save_photo">Save Photo</string>
+    <string name="inspiration_photos_empty_title">No inspiration photos yet</string>
+    <string name="inspiration_photos_empty_body">Add a photo of someone or something you care about to keep on your pause screen.</string>
+    <string name="inspiration_remove">Remove</string>
+    <string name="inspiration_show_photos_title">Show photos on pause screen</string>
+    <string name="inspiration_show_photos_body">Display your gallery gently when an app opens</string>
+    <string name="inspiration_vary_prompts_title">Thoughtful daily messages</string>
+    <string name="inspiration_vary_prompts_body">Rotate reflection prompts quietly each open</string>
+    <string name="inspiration_retry">Retry</string>
+    <string name="inspiration_error_load">Unable to load your Inspiration screen.</string>
+    <string name="inspiration_error_photo_save">Could not save that photo. Try another image.</string>
+    <string name="inspiration_reminders_title">Personal Reminders</string>
+    <string name="inspiration_reminders_body">Shown randomly before a blocked app opens. Pick a type or tap an idea below.</string>
+    <string name="inspiration_add_reminder">+ Add Reminder</string>
+    <string name="inspiration_reminder_added">Added — it will rotate randomly on your pause screen.</string>
+    <string name="inspiration_ideas_label">IDEAS — TAP TO USE</string>
+    <string name="inspiration_reminders_empty">No personal reminders yet — add goals, inspirations, or refocus cues above.</string>
+    <string name="inspiration_reminder_quoted">“%1$s”</string>
+    <plurals name="settings_photo_count">
+        <item quantity="one">%1$d photo</item>
+        <item quantity="other">%1$d photos</item>
+    </plurals>
+    <plurals name="settings_reminder_count">
+        <item quantity="one">%1$d rotating reminder</item>
+        <item quantity="other">%1$d rotating reminders</item>
+    </plurals>
+    <plurals name="inspiration_photo_badge">
+        <item quantity="one">%1$d PHOTO</item>
+        <item quantity="other">%1$d PHOTOS</item>
+    </plurals>
+    <plurals name="inspiration_reminders_saved_badge">
+        <item quantity="one">%1$d SAVED</item>
+        <item quantity="other">%1$d SAVED</item>
+    </plurals>
+    <!-- Inspiration tabs -->
+    <string name="inspiration_tab_reminders">Reminders</string>
+    <string name="inspiration_tab_photos">Photos</string>
+    <string name="inspiration_tab_pause">Pause screen</string>
+    <string name="inspiration_add_photo_tile">Add photo</string>
+    <string name="inspiration_remove_photo_cd">Remove photo</string>
+</resources>

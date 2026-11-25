@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shield_seconds_short">%1$s ث</string>
+    <string name="shield_close_app">إغلاق %1$s</string>
+    <plurals name="shield_hold_to_continue">
+        <item quantity="zero">اضغط مطولًا %1$d ثانية للمتابعة</item>
+        <item quantity="one">اضغط مطولًا ثانية واحدة للمتابعة</item>
+        <item quantity="two">اضغط مطولًا ثانيتين للمتابعة</item>
+        <item quantity="few">اضغط مطولًا %1$d ثوانٍ للمتابعة</item>
+        <item quantity="many">اضغط مطولًا %1$d ثانية للمتابعة</item>
+        <item quantity="other">اضغط مطولًا %1$d ثانية للمتابعة</item>
+    </plurals>
+    <string name="shield_keep_holding">واصل الضغط · %1$s ث</string>
+    <string name="shield_released_early_hint">متوقف مؤقتًا: واصل الضغط بثبات للدخول، أو أغلق من الأعلى.</string>
+    <string name="shield_close_above_hint">أغلق من الأعلى لتتراجع بهدوء.</string>
+    <string name="shield_pause_app">توقف مؤقت · %1$s</string>
+    <string name="shield_open_count_today">الفتح رقم %1$d اليوم</string>
+    <string name="shield_pause_illustration">رسم توضيحي لوقفة هادئة</string>
+    <string name="shield_breathe_slowly">تنفّس ببطء</string>
+    <string name="shield_quoted_mantra">«%1$s»</string>
+    <plurals name="shield_minutes_saved">
+        <item quantity="zero">+%1$d دقيقة تم توفيرها</item>
+        <item quantity="one">+دقيقة واحدة تم توفيرها</item>
+        <item quantity="two">+دقيقتان تم توفيرهما</item>
+        <item quantity="few">+%1$d دقائق تم توفيرها</item>
+        <item quantity="many">+%1$d دقيقة تم توفيرها</item>
+        <item quantity="other">+%1$d دقيقة تم توفيرها</item>
+    </plurals>
+    <plurals name="shield_stopped_today">
+        <item quantity="zero">%1$d رغبة أوقفتها اليوم</item>
+        <item quantity="one">رغبة واحدة أوقفتها اليوم</item>
+        <item quantity="two">رغبتان أوقفتهما اليوم</item>
+        <item quantity="few">%1$d رغبات أوقفتها اليوم</item>
+        <item quantity="many">%1$d رغبة أوقفتها اليوم</item>
+        <item quantity="other">%1$d رغبة أوقفتها اليوم</item>
+    </plurals>
+    <string name="shield_nice_choice">اختيار موفّق.\nتم إغلاق %1$s.</string>
+    <string name="shield_back_to_what_matters">عودة إلى ما يهم</string>
+    <string name="shield_returning_home">جارٍ العودة إلى الشاشة الرئيسية…</string>
+    <!-- Break offered on a repeat pause screen -->
+    <string name="shield_break_checkbox">لا توقف %1$s مؤقتًا لفترة</string>
+    <string name="shield_break_30">30 دقيقة</string>
+    <string name="shield_break_60">ساعة</string>
+    <string name="shield_break_120">ساعتان</string>
+    <string name="shield_break_hint">يبدأ عندما تضغط مطولًا للمتابعة.</string>
+    <string name="home_break_title">في استراحة</string>
+    <string name="home_break_until">%1$s · بلا توقف حتى %2$s</string>
+    <string name="home_break_resume">استئناف التوقف المؤقت</string>
+</resources>

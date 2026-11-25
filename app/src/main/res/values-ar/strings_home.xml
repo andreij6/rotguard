@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_apps">التطبيقات</string>
+    <string name="nav_insights">الإحصاءات</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <string name="home_retry">إعادة المحاولة</string>
+    <string name="home_two_parts">%1$s · %2$s</string>
+    <string name="home_minutes_short">%1$d د</string>
+
+    <string name="dashboard_title">الرئيسية</string>
+    <string name="dashboard_status_active">مفعَّلة</string>
+    <string name="dashboard_status_paused">متوقفة مؤقتًا</string>
+    <string name="dashboard_setup_label">أكمِل الإعداد</string>
+    <string name="dashboard_setup_body">فعِّل رصد التطبيقات والوصول إلى شاشة التوقف المؤقت كي يتمكن RotGuard من إيقاف التطبيقات المحظورة مؤقتًا.</string>
+    <string name="dashboard_setup_button">تفعيل الحماية</string>
+    <string name="dashboard_medallion_description">حديقة نباتية زجاجية تمثّل صحة التركيز</string>
+    <string name="dashboard_health_percent">%1$d٪</string>
+    <string name="dashboard_focus_health">صحة التركيز</string>
+    <string name="dashboard_stage_thriving">تركيز قوي اليوم</string>
+    <string name="dashboard_stage_alert">إيقاع ثابت</string>
+    <string name="dashboard_stage_strained">تسلّلت بعض الرغبات</string>
+    <string name="dashboard_stage_reset">حان وقت استراحة واعية</string>
+    <plurals name="dashboard_hero_summary">
+        <item quantity="zero">%1$s · %2$d دقيقة تم توفيرها اليوم</item>
+        <item quantity="one">%1$s · %2$d دقيقة تم توفيرها اليوم</item>
+        <item quantity="two">%1$s · %2$d دقيقتان تم توفيرهما اليوم</item>
+        <item quantity="few">%1$s · %2$d دقائق تم توفيرها اليوم</item>
+        <item quantity="many">%1$s · %2$d دقيقة تم توفيرها اليوم</item>
+        <item quantity="other">%1$s · %2$d دقيقة تم توفيرها اليوم</item>
+    </plurals>
+    <string name="dashboard_kpi_urges_stopped">رغبات تم إيقافها</string>
+    <string name="dashboard_kpi_time_saved">الوقت الموفَّر</string>
+    <plurals name="dashboard_photo_count">
+        <item quantity="zero">%1$d صورة</item>
+        <item quantity="one">%1$d صورة</item>
+        <item quantity="two">%1$d صورتان</item>
+        <item quantity="few">%1$d صور</item>
+        <item quantity="many">%1$d صورة</item>
+        <item quantity="other">%1$d صورة</item>
+    </plurals>
+    <plurals name="dashboard_reminder_count">
+        <item quantity="zero">%1$d تذكير</item>
+        <item quantity="one">%1$d تذكير</item>
+        <item quantity="two">%1$d تذكيران</item>
+        <item quantity="few">%1$d تذكيرات</item>
+        <item quantity="many">%1$d تذكيرًا</item>
+        <item quantity="other">%1$d تذكير</item>
+    </plurals>
+    <string name="dashboard_manage">إدارة</string>
+    <string name="dashboard_inspiration_fallback">إلهام</string>
+    <string name="dashboard_mantra_quoted">«%1$s»</string>
+    <string name="dashboard_no_apps">لم يتم حظر أي تطبيق بعد — انقر للاختيار.</string>
+    <string name="dashboard_paused_apps">التطبيقات المتوقفة مؤقتًا: %1$s</string>
+    <string name="dashboard_test_blocker">تجربة شاشة التوقف المؤقت</string>
+    <string name="dashboard_edit">تعديل</string>
+    <string name="dashboard_error_load">تعذّر تحميل الصفحة الرئيسية. يُرجى المحاولة مرة أخرى.</string>
+
+    <string name="insights_title">الإحصاءات</string>
+    <string name="insights_duel_label">مقارنة يومية</string>
+    <string name="insights_duel_ahead">أفضل من متوسطك اليومي</string>
+    <string name="insights_duel_behind">مرات فتح كثيرة اليوم</string>
+    <string name="insights_duel_body">تجاوزات أقل للتوقف المؤقت مقارنةً بيوم تصفّح مكثّف معتاد.</string>
+    <string name="insights_your_opens">مرات فتحك</string>
+    <string name="insights_vs">مقابل</string>
+    <string name="insights_daily_avg">المتوسط اليومي</string>
+    <string name="insights_trend_title">صحة التركيز خلال 7 أيام</string>
+    <plurals name="insights_week_minutes_saved">
+        <item quantity="zero">تم توفير %1$d دقيقة</item>
+        <item quantity="one">تم توفير %1$d دقيقة</item>
+        <item quantity="two">تم توفير %1$d دقيقتين</item>
+        <item quantity="few">تم توفير %1$d دقائق</item>
+        <item quantity="many">تم توفير %1$d دقيقة</item>
+        <item quantity="other">تم توفير %1$d دقيقة</item>
+    </plurals>
+    <string name="insights_most_closed">الأكثر إغلاقًا اليوم</string>
+    <string name="insights_empty">لم يتم إيقاف أي مُشتِّت مؤقتًا اليوم بعد. حمايتك مفعَّلة.</string>
+    <plurals name="insights_closed_count">
+        <item quantity="zero">أُغلق %1$d مرة</item>
+        <item quantity="one">أُغلق %1$d مرة</item>
+        <item quantity="two">أُغلق %1$d مرتين</item>
+        <item quantity="few">أُغلق %1$d مرات</item>
+        <item quantity="many">أُغلق %1$d مرة</item>
+        <item quantity="other">أُغلق %1$d مرة</item>
+    </plurals>
+    <plurals name="insights_opened_count">
+        <item quantity="zero">فُتح %1$d مرة</item>
+        <item quantity="one">فُتح %1$d مرة</item>
+        <item quantity="two">فُتح %1$d مرتين</item>
+        <item quantity="few">فُتح %1$d مرات</item>
+        <item quantity="many">فُتح %1$d مرة</item>
+        <item quantity="other">فُتح %1$d مرة</item>
+    </plurals>
+    <plurals name="insights_app_minutes_saved">
+        <item quantity="zero">تم توفير %1$d دقيقة</item>
+        <item quantity="one">تم توفير %1$d دقيقة</item>
+        <item quantity="two">تم توفير %1$d دقيقتين</item>
+        <item quantity="few">تم توفير %1$d دقائق</item>
+        <item quantity="many">تم توفير %1$d دقيقة</item>
+        <item quantity="other">تم توفير %1$d دقيقة</item>
+    </plurals>
+    <string name="insights_error_load">تعذّر تحميل إحصاءاتك الأسبوعية. يُرجى المحاولة مرة أخرى.</string>
+
+    <string name="apps_title">التطبيقات المحظورة</string>
+    <plurals name="apps_active_count">
+        <item quantity="zero">المفعَّلة: %1$d</item>
+        <item quantity="one">المفعَّلة: %1$d</item>
+        <item quantity="two">المفعَّلة: %1$d</item>
+        <item quantity="few">المفعَّلة: %1$d</item>
+        <item quantity="many">المفعَّلة: %1$d</item>
+        <item quantity="other">المفعَّلة: %1$d</item>
+    </plurals>
+    <string name="apps_search_placeholder">ابحث في التطبيقات المثبّتة…</string>
+    <string name="apps_pause_length">مدة التوقف المؤقت</string>
+    <string name="apps_seconds_short">%1$d ث</string>
+    <string name="apps_suggested">مقترح</string>
+    <plurals name="apps_hold_seconds">
+        <item quantity="zero">توقف مؤقت لمدة %1$d ثانية</item>
+        <item quantity="one">توقف مؤقت لمدة %1$d ثانية</item>
+        <item quantity="two">توقف مؤقت لمدة %1$d ثانيتين</item>
+        <item quantity="few">توقف مؤقت لمدة %1$d ثوانٍ</item>
+        <item quantity="many">توقف مؤقت لمدة %1$d ثانية</item>
+        <item quantity="other">توقف مؤقت لمدة %1$d ثانية</item>
+    </plurals>
+    <string name="apps_not_paused">بلا توقف مؤقت</string>
+    <string name="apps_icon_description">أيقونة %1$s</string>
+    <string name="apps_error_load">تعذّر تحميل تطبيقاتك المثبّتة. يُرجى المحاولة مرة أخرى.</string>
+</resources>

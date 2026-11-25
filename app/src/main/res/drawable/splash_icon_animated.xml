@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android 12+ splash icon: the launcher shield builds itself.
+  0-520ms shield pops in · 100-700 gold rim traces · 450-750 stem grows · 650-1100 leaves unfurl · 1100-1340 pulse.
+  Keep windowSplashScreenAnimationDuration (values-v31/themes.xml) in step with the total.
+  Shapes match ic_launcher_foreground.xml; the end state is the launcher icon.
+-->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="108dp"
+            android:height="108dp"
+            android:viewportWidth="108"
+            android:viewportHeight="108">
+            <group
+                android:name="shield"
+                android:pivotX="54"
+                android:pivotY="55"
+                android:scaleX="0.6"
+                android:scaleY="0.6">
+                <path
+                    android:name="shield_lit"
+                    android:fillAlpha="0"
+                    android:fillColor="#FFF4EEDB"
+                    android:pathData="M54,27 C61,31.5 67.5,33 76,33 V52 C76,67.5 67,77.5 54,84 C41,77.5 32,67.5 32,52 V33 C40.5,33 47,31.5 54,27 Z" />
+                <path
+                    android:name="shield_shade"
+                    android:fillAlpha="0"
+                    android:fillColor="#FFE8DFC4"
+                    android:pathData="M54,27 C61,31.5 67.5,33 76,33 V52 C76,67.5 67,77.5 54,84 Z" />
+                <path
+                    android:name="rim"
+                    android:fillColor="#00000000"
+                    android:pathData="M54,27 C61,31.5 67.5,33 76,33 V52 C76,67.5 67,77.5 54,84 C41,77.5 32,67.5 32,52 V33 C40.5,33 47,31.5 54,27 Z"
+                    android:strokeColor="#FFE3AE55"
+                    android:strokeLineCap="round"
+                    android:strokeLineJoin="round"
+                    android:strokeWidth="1.6"
+                    android:trimPathEnd="0" />
+                <group
+                    android:name="stem"
+                    android:pivotX="54"
+                    android:pivotY="73.5"
+                    android:scaleY="0">
+                    <path
+                        android:fillColor="#00000000"
+                        android:pathData="M54,73.5 V55"
+                        android:strokeColor="#FF245C40"
+                        android:strokeLineCap="round"
+                        android:strokeWidth="4.2" />
+                </group>
+                <group
+                    android:name="leaf_left"
+                    android:pivotX="54"
+                    android:pivotY="61.5"
+                    android:rotation="-35"
+                    android:scaleX="0"
+                    android:scaleY="0">
+                    <path
+                        android:fillColor="#FF2F7A52"
+                        android:pathData="M54,61.5 C44.5,61.5 38.5,55.5 38.5,46 C48,46 54,52 54,61.5 Z" />
+                </group>
+                <group
+                    android:name="leaf_right"
+                    android:pivotX="54"
+                    android:pivotY="56.5"
+                    android:rotation="35"
+                    android:scaleX="0"
+                    android:scaleY="0">
+                    <path
+                        android:fillColor="#FF4FA374"
+                        android:pathData="M54,56.5 C54,45.5 60.5,38.5 70.5,38.5 C70.5,49 63.5,56.5 54,56.5 Z" />
+                </group>
+            </group>
+        </vector>
+    </aapt:attr>
+
+    <target android:name="shield">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="520"
+                    android:interpolator="@android:anim/overshoot_interpolator"
+                    android:propertyName="scaleX"
+                    android:valueFrom="0.6"
+                    android:valueTo="1" />
+                <objectAnimator
+                    android:duration="520"
+                    android:interpolator="@android:anim/overshoot_interpolator"
+                    android:propertyName="scaleY"
+                    android:valueFrom="0.6"
+                    android:valueTo="1" />
+                <objectAnimator
+                    android:duration="120"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleX"
+                    android:repeatCount="1"
+                    android:repeatMode="reverse"
+                    android:startOffset="1100"
+                    android:valueFrom="1"
+                    android:valueTo="1.06" />
+                <objectAnimator
+                    android:duration="120"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleY"
+                    android:repeatCount="1"
+                    android:repeatMode="reverse"
+                    android:startOffset="1100"
+                    android:valueFrom="1"
+                    android:valueTo="1.06" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="shield_lit">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="300"
+                android:propertyName="fillAlpha"
+                android:valueFrom="0"
+                android:valueTo="1" />
+        </aapt:attr>
+    </target>
+    <target android:name="shield_shade">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="300"
+                android:propertyName="fillAlpha"
+                android:valueFrom="0"
+                android:valueTo="1" />
+        </aapt:attr>
+    </target>
+    <target android:name="rim">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="600"
+                android:interpolator="@android:interpolator/fast_out_slow_in"
+                android:propertyName="trimPathEnd"
+                android:startOffset="100"
+                android:valueFrom="0"
+                android:valueTo="1" />
+        </aapt:attr>
+    </target>
+    <target android:name="stem">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="300"
+                android:interpolator="@android:interpolator/fast_out_slow_in"
+                android:propertyName="scaleY"
+                android:startOffset="450"
+                android:valueFrom="0"
+                android:valueTo="1" />
+        </aapt:attr>
+    </target>
+    <target android:name="leaf_left">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="350"
+                    android:interpolator="@android:anim/overshoot_interpolator"
+                    android:propertyName="scaleX"
+                    android:startOffset="650"
+                    android:valueFrom="0"
+                    android:valueTo="1" />
+                <objectAnimator
+                    android:duration="350"
+                    android:interpolator="@android:anim/overshoot_interpolator"
+                    android:propertyName="scaleY"
+                    android:startOffset="650"
+                    android:valueFrom="0"
+                    android:valueTo="1" />
+                <objectAnimator
+                    android:duration="350"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="rotation"
+                    android:startOffset="650"
+                    android:valueFrom="-35"
+                    android:valueTo="0" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="leaf_right">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="350"
+                    android:interpolator="@android:anim/overshoot_interpolator"
+                    android:propertyName="scaleX"
+                    android:startOffset="750"
+                    android:valueFrom="0"
+                    android:valueTo="1" />
+                <objectAnimator
+                    android:duration="350"
+                    android:interpolator="@android:anim/overshoot_interpolator"
+                    android:propertyName="scaleY"
+                    android:startOffset="750"
+                    android:valueFrom="0"
+                    android:valueTo="1" />
+                <objectAnimator
+                    android:duration="350"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="rotation"
+                    android:startOffset="750"
+                    android:valueFrom="35"
+                    android:valueTo="0" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

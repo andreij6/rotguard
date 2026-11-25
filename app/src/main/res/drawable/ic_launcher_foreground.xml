@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RotGuard: a gold-rimmed shield guarding a sprout. Kept inside the 66dp safe zone (center 54,54). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield, lit half -->
+    <path
+        android:fillColor="#FFF4EEDB"
+        android:pathData="M54,27 C61,31.5 67.5,33 76,33 V52 C76,67.5 67,77.5 54,84 C41,77.5 32,67.5 32,52 V33 C40.5,33 47,31.5 54,27 Z" />
+    <!-- Shield, shaded half -->
+    <path
+        android:fillColor="#FFE8DFC4"
+        android:pathData="M54,27 C61,31.5 67.5,33 76,33 V52 C76,67.5 67,77.5 54,84 Z" />
+    <!-- Gold rim -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,27 C61,31.5 67.5,33 76,33 V52 C76,67.5 67,77.5 54,84 C41,77.5 32,67.5 32,52 V33 C40.5,33 47,31.5 54,27 Z"
+        android:strokeColor="#FFE3AE55"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1.6" />
+    <!-- Sprout stem -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,73.5 V55"
+        android:strokeColor="#FF245C40"
+        android:strokeLineCap="round"
+        android:strokeWidth="4.2" />
+    <!-- Left leaf -->
+    <path
+        android:fillColor="#FF2F7A52"
+        android:pathData="M54,61.5 C44.5,61.5 38.5,55.5 38.5,46 C48,46 54,52 54,61.5 Z" />
+    <!-- Right leaf -->
+    <path
+        android:fillColor="#FF4FA374"
+        android:pathData="M54,56.5 C54,45.5 60.5,38.5 70.5,38.5 C70.5,49 63.5,56.5 54,56.5 Z" />
+</vector>

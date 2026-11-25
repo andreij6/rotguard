@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RotGuard" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Launch theme for MainActivity. Android 8-11: static branded window (values-v31 animates it on 12+).
+         MainActivity swaps back to Theme.RotGuard in onCreate. -->
+    <style name="Theme.RotGuard.Splash">
+        <item name="android:windowBackground">@drawable/splash_static</item>
+    </style>
+</resources>

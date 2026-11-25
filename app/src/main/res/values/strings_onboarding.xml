@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding wizard (feature/onboarding). Tone: warm, calm, never shaming. -->
+<resources>
+    <!-- Header, navigation and errors -->
+    <string name="onboarding_badge_all_set">ALL SET</string>
+    <!-- %1$d = current step, %2$d = total steps -->
+    <string name="onboarding_badge_step">STEP %1$d OF %2$d</string>
+    <string name="onboarding_back">Back</string>
+    <string name="onboarding_cta_get_started">Get Started</string>
+    <string name="onboarding_cta_see_time_cost">See My Time Cost</string>
+    <string name="onboarding_cta_set_focus_plan">Set My Focus Plan</string>
+    <string name="onboarding_cta_add_inspiration">Add Inspiration Photos</string>
+    <string name="onboarding_cta_choose_apps">Choose Blocked Apps</string>
+    <string name="onboarding_cta_set_up_pause">Set Up App Pause</string>
+    <string name="onboarding_cta_continue_final">Continue to Final Step</string>
+    <string name="onboarding_cta_go_home">Go to Home</string>
+    <string name="onboarding_pledge_bottom_hint">Hold the bar above for 3 seconds to finish</string>
+    <string name="onboarding_retry">Try Again</string>
+    <string name="onboarding_error_load">Unable to load onboarding setup.</string>
+    <string name="onboarding_error_save">Unable to save onboarding commitment.</string>
+    <string name="onboarding_error_photo">Unable to load that photo.</string>
+
+    <!-- Welcome -->
+    <string name="onboarding_welcome_headline">Reclaim your focus from endless feeds.</string>
+    <string name="onboarding_welcome_subtitle">Whether you\'re studying for exams or chasing a work deadline, RotGuard adds a brief pause before distracting apps open so scrolling becomes a choice instead of a reflex.</string>
+    <string name="onboarding_welcome_illustration_cd">Calm botanical sprout illustration</string>
+    <string name="onboarding_highlight_pause_title">Automatic Pause</string>
+    <string name="onboarding_highlight_pause_body">Steps in before selected apps open.</string>
+    <string name="onboarding_highlight_hold_title">Press &amp; Hold Check</string>
+    <string name="onboarding_highlight_hold_body">Breaks reflex taps with tactile vibration.</string>
+    <string name="onboarding_highlight_private_title">Completely Private</string>
+    <string name="onboarding_highlight_private_body">Everything stays on your phone.</string>
+
+    <!-- Feed simulator -->
+    <string name="onboarding_simulator_headline">Feel how endless feeds build momentum.</string>
+    <string name="onboarding_simulator_subtitle">Tap any daily scroll level below to feel the vibration shift.</string>
+    <!-- %1$s = vibration pattern name, e.g. "Soft double tap" -->
+    <string name="onboarding_simulator_vibration">Vibration feel: %1$s</string>
+
+    <!-- Time audit -->
+    <string name="onboarding_audit_headline">How much daily scroll time are you fighting?</string>
+    <!-- %1$d = hours of scrolling per day -->
+    <plurals name="onboarding_audit_hours_a_day">
+        <item quantity="one">AT %1$d HOUR A DAY</item>
+        <item quantity="other">AT %1$d HOURS A DAY</item>
+    </plurals>
+    <!-- %1$.1f = waking years lost over 50 years, e.g. 12.5 (always a decimal, so no plural form) -->
+    <string name="onboarding_audit_waking_years">%1$.1f Waking Years</string>
+    <!-- %1$d = full days lost per year, %2$.1f = waking years lost over 50 years (decimal) -->
+    <plurals name="onboarding_audit_days_lost">
+        <item quantity="one">That equals %1$d full 24-hour day every year — nearly %2$.1f waking years over the next 50 years.</item>
+        <item quantity="other">That equals %1$d full 24-hour days every year — nearly %2$.1f waking years over the next 50 years.</item>
+    </plurals>
+    <!-- Short chip label: %1$d hours per day -->
+    <string name="onboarding_audit_hours_chip">%1$dh</string>
+    <!-- Short chip label: %1$d or more hours per day -->
+    <string name="onboarding_audit_hours_chip_max">%1$dh+</string>
+    <string name="onboarding_audit_footer">Cutting just half of those impulse launches gives you back weeks of real time each year.</string>
+
+    <!-- Goals -->
+    <string name="onboarding_goals_headline">Anchor your reason to pause.</string>
+    <string name="onboarding_goals_subtitle">Your goals and reminder appear quietly when you reach for a blocked app.</string>
+    <string name="onboarding_goals_peak_label">WHEN IS TEMPTATION STRONGEST?</string>
+    <string name="onboarding_goals_mantra_label">First Personal Reminder</string>
+    <string name="onboarding_goals_mantra_support">You can add more goals, inspirations &amp; refocus cues anytime.</string>
+
+    <!-- Inspiration photos -->
+    <string name="onboarding_inspiration_headline">Add photos that remind you why.</string>
+    <string name="onboarding_inspiration_subtitle">Your Inspiration photos appear gently on your pause screen. Keep our calm scenes or add your own.</string>
+    <string name="onboarding_inspiration_adding">Adding Photo…</string>
+    <string name="onboarding_inspiration_add">+ Add Personal Photo</string>
+    <string name="onboarding_inspiration_remove">Remove</string>
+
+    <!-- App selection -->
+    <string name="onboarding_apps_headline">Choose apps to add a pause to.</string>
+    <string name="onboarding_apps_subtitle">Selected apps pause with your reminder before opening.</string>
+    <string name="onboarding_apps_badge_suggested">SUGGESTED</string>
+    <string name="onboarding_apps_will_pause">Will pause before opening</string>
+    <string name="onboarding_apps_opens_now">Opens right away</string>
+
+    <!-- Permissions -->
+    <string name="onboarding_permissions_headline">Turn on app pause detection.</string>
+    <string name="onboarding_permissions_subtitle">RotGuard only checks when a blocked app opens so it can show your pause screen. It never reads messages or screen contents.</string>
+    <string name="onboarding_permissions_detect_title">1. Detect Blocked Apps</string>
+    <string name="onboarding_permissions_detect_body">Lets RotGuard notice right when a blocked app like YouTube launches.</string>
+    <string name="onboarding_permissions_detect_button">Enable App Detection</string>
+    <string name="onboarding_permissions_overlay_title">2. Show Pause Screen</string>
+    <string name="onboarding_permissions_overlay_body">Lets RotGuard display your gentle pause check on top of blocked apps.</string>
+    <string name="onboarding_permissions_overlay_button">Allow Pause Screen</string>
+    <string name="onboarding_permissions_badge_active">ACTIVE</string>
+    <string name="onboarding_permissions_badge_needed">NEEDED</string>
+
+    <!-- Commitment pledge -->
+    <string name="onboarding_pledge_headline">Seal your focus commitment.</string>
+    <string name="onboarding_pledge_subtitle">Try how a pause feels in practice. Hold below for 3 seconds to complete setup.</string>
+    <string name="onboarding_pledge_illustration_cd">Focus commitment sprout</string>
+    <string name="onboarding_pledge_idle_label">HOLD 3S TO FINISH SETUP</string>
+    <!-- %1$d = hold progress percent (0-100) -->
+    <string name="onboarding_pledge_holding_label">HOLDING… %1$d%%</string>
+    <string name="onboarding_pledge_released_early">Released early — keep holding steadily for 3 seconds.</string>
+
+    <!-- Complete -->
+    <string name="onboarding_complete_headline">You\'re All Set.</string>
+    <string name="onboarding_complete_illustration_cd">Focus ready terrarium</string>
+    <string name="onboarding_complete_badge">READY FOR DAILY FOCUS</string>
+    <!-- %1$d = number of guarded apps -->
+    <plurals name="onboarding_complete_guarded_apps">
+        <item quantity="one">%1$d app set to pause before opening.</item>
+        <item quantity="other">%1$d apps set to pause before opening.</item>
+    </plurals>
+    <!-- %1$s = the user's personal reminder, shown in quotation marks -->
+    <string name="onboarding_complete_mantra_quote">“%1$s”</string>
+    <string name="onboarding_goals_mantra_done">Done</string>
+    <string name="onboarding_goals_mantra_empty_hint">Tap to write a reminder that matters to you</string>
+</resources>

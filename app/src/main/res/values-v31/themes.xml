@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ splash: the launcher shield builds itself (splash_icon_animated.xml, ~1340ms). -->
+    <style name="Theme.RotGuard.Splash">
+        <item name="android:windowSplashScreenBackground">@color/splash_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_icon_animated</item>
+        <item name="android:windowSplashScreenAnimationDuration">1350</item>
+    </style>
+</resources>

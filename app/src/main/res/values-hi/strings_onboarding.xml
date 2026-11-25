@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Header, navigation and errors -->
+    <string name="onboarding_badge_all_set">सब तैयार</string>
+    <string name="onboarding_badge_step">चरण %1$d / %2$d</string>
+    <string name="onboarding_back">वापस</string>
+    <string name="onboarding_cta_get_started">शुरू करें</string>
+    <string name="onboarding_cta_see_time_cost">मेरे समय की कीमत देखें</string>
+    <string name="onboarding_cta_set_focus_plan">मेरा फ़ोकस प्लान बनाएं</string>
+    <string name="onboarding_cta_add_inspiration">प्रेरणा वाली फ़ोटो जोड़ें</string>
+    <string name="onboarding_cta_choose_apps">सुरक्षित ऐप्स चुनें</string>
+    <string name="onboarding_cta_set_up_pause">ऐप विराम सेट करें</string>
+    <string name="onboarding_cta_continue_final">आख़िरी चरण पर जाएं</string>
+    <string name="onboarding_cta_go_home">होम पर जाएं</string>
+    <string name="onboarding_pledge_bottom_hint">पूरा करने के लिए ऊपर वाली पट्टी को 3 सेकंड दबाए रखें</string>
+    <string name="onboarding_retry">फिर से कोशिश करें</string>
+    <string name="onboarding_error_load">ऑनबोर्डिंग सेटअप लोड नहीं हो सका.</string>
+    <string name="onboarding_error_save">आपका फ़ोकस संकल्प सेव नहीं हो सका.</string>
+    <string name="onboarding_error_photo">यह फ़ोटो लोड नहीं हो सकी.</string>
+
+    <!-- Welcome -->
+    <string name="onboarding_welcome_headline">अंतहीन फ़ीड से अपना फ़ोकस वापस पाएं.</string>
+    <string name="onboarding_welcome_subtitle">चाहे आप परीक्षा की तैयारी कर रहे हों या काम की डेडलाइन के पीछे भाग रहे हों, RotGuard ध्यान भटकाने वाले ऐप्स खुलने से पहले एक छोटा-सा विराम जोड़ता है, ताकि स्क्रॉल करना आदत नहीं, आपकी पसंद बने.</string>
+    <string name="onboarding_welcome_illustration_cd">शांत पौधे के अंकुर का चित्र</string>
+    <string name="onboarding_highlight_pause_title">अपने-आप विराम</string>
+    <string name="onboarding_highlight_pause_body">चुने हुए ऐप्स खुलने से पहले बीच में आता है.</string>
+    <string name="onboarding_highlight_hold_title">दबाकर रखने वाली जांच</string>
+    <string name="onboarding_highlight_hold_body">हल्के वाइब्रेशन से बिना सोचे किए जाने वाले टैप रोकता है.</string>
+    <string name="onboarding_highlight_private_title">पूरी तरह निजी</string>
+    <string name="onboarding_highlight_private_body">सब कुछ आपके फ़ोन पर ही रहता है.</string>
+
+    <!-- Feed simulator -->
+    <string name="onboarding_simulator_headline">महसूस करें कि अंतहीन फ़ीड कैसे रफ़्तार पकड़ती है.</string>
+    <string name="onboarding_simulator_subtitle">वाइब्रेशन में बदलाव महसूस करने के लिए नीचे कोई भी रोज़ का स्क्रॉल लेवल टैप करें.</string>
+    <string name="onboarding_simulator_vibration">वाइब्रेशन का एहसास: %1$s</string>
+
+    <!-- Time audit -->
+    <string name="onboarding_audit_headline">आप रोज़ कितने स्क्रॉल टाइम से जूझ रहे हैं?</string>
+    <plurals name="onboarding_audit_hours_a_day">
+        <item quantity="one">रोज़ %1$d घंटा</item>
+        <item quantity="other">रोज़ %1$d घंटे</item>
+    </plurals>
+    <string name="onboarding_audit_waking_years">जागते हुए %1$.1f साल</string>
+    <plurals name="onboarding_audit_days_lost">
+        <item quantity="one">यह हर साल पूरे %1$d दिन (24 घंटे) के बराबर है — अगले 50 सालों में जागते हुए लगभग %2$.1f साल.</item>
+        <item quantity="other">यह हर साल पूरे %1$d दिनों (24-24 घंटे) के बराबर है — अगले 50 सालों में जागते हुए लगभग %2$.1f साल.</item>
+    </plurals>
+    <string name="onboarding_audit_hours_chip">%1$d घं</string>
+    <string name="onboarding_audit_hours_chip_max">%1$d घं+</string>
+    <string name="onboarding_audit_footer">उन आवेग में खोले गए ऐप्स में से सिर्फ़ आधे कम करने से भी आपको हर साल कई हफ़्तों का असली समय वापस मिलता है.</string>
+
+    <!-- Goals -->
+    <string name="onboarding_goals_headline">रुकने की अपनी वजह तय करें.</string>
+    <string name="onboarding_goals_subtitle">जब आप किसी सुरक्षित ऐप की ओर हाथ बढ़ाते हैं, तब आपके लक्ष्य और रिमाइंडर चुपचाप सामने आते हैं.</string>
+    <string name="onboarding_goals_peak_label">सबसे ज़्यादा तलब कब होती है?</string>
+    <string name="onboarding_goals_mantra_label">पहला निजी रिमाइंडर</string>
+    <string name="onboarding_goals_mantra_support">आप कभी भी और लक्ष्य, प्रेरणाएं और फिर से फ़ोकस के संकेत जोड़ सकते हैं.</string>
+
+    <!-- Inspiration photos -->
+    <string name="onboarding_inspiration_headline">ऐसी फ़ोटो जोड़ें जो आपको आपकी वजह याद दिलाएं.</string>
+    <string name="onboarding_inspiration_subtitle">आपकी प्रेरणा वाली फ़ोटो विराम स्क्रीन पर धीरे से दिखती हैं. हमारे शांत नज़ारे रखें या अपनी फ़ोटो जोड़ें.</string>
+    <string name="onboarding_inspiration_adding">फ़ोटो जोड़ी जा रही है…</string>
+    <string name="onboarding_inspiration_add">+ अपनी फ़ोटो जोड़ें</string>
+    <string name="onboarding_inspiration_remove">हटाएं</string>
+
+    <!-- App selection -->
+    <string name="onboarding_apps_headline">वे ऐप्स चुनें जिन पर विराम लगाना है.</string>
+    <string name="onboarding_apps_subtitle">चुने गए ऐप्स खुलने से पहले आपके रिमाइंडर के साथ रुकते हैं.</string>
+    <string name="onboarding_apps_badge_suggested">सुझाया गया</string>
+    <string name="onboarding_apps_will_pause">खुलने से पहले रुकेगा</string>
+    <string name="onboarding_apps_opens_now">तुरंत खुलता है</string>
+
+    <!-- Permissions -->
+    <string name="onboarding_permissions_headline">ऐप विराम की पहचान चालू करें.</string>
+    <string name="onboarding_permissions_subtitle">RotGuard सिर्फ़ यह देखता है कि कोई सुरक्षित ऐप कब खुलता है, ताकि आपकी विराम स्क्रीन दिखा सके. यह कभी भी मैसेज या स्क्रीन का कॉन्टेंट नहीं पढ़ता.</string>
+    <string name="onboarding_permissions_detect_title">1. सुरक्षित ऐप्स पहचानें</string>
+    <string name="onboarding_permissions_detect_body">इससे RotGuard को YouTube जैसे किसी सुरक्षित ऐप के खुलते ही पता चल जाता है.</string>
+    <string name="onboarding_permissions_detect_button">ऐप पहचान चालू करें</string>
+    <string name="onboarding_permissions_overlay_title">2. विराम स्क्रीन दिखाएं</string>
+    <string name="onboarding_permissions_overlay_body">इससे RotGuard सुरक्षित ऐप्स के ऊपर आपकी हल्की-सी विराम जांच दिखा पाता है.</string>
+    <string name="onboarding_permissions_overlay_button">विराम स्क्रीन की अनुमति दें</string>
+    <string name="onboarding_permissions_badge_active">चालू</string>
+    <string name="onboarding_permissions_badge_needed">ज़रूरी</string>
+
+    <!-- Commitment pledge -->
+    <string name="onboarding_pledge_headline">अपने फ़ोकस संकल्प पर मुहर लगाएं.</string>
+    <string name="onboarding_pledge_subtitle">आज़माकर देखें कि विराम असल में कैसा लगता है. सेटअप पूरा करने के लिए नीचे 3 सेकंड दबाए रखें.</string>
+    <string name="onboarding_pledge_illustration_cd">फ़ोकस संकल्प का अंकुर</string>
+    <string name="onboarding_pledge_idle_label">सेटअप पूरा करने के लिए 3 सेकंड दबाए रखें</string>
+    <string name="onboarding_pledge_holding_label">दबाए हुए… %1$d%%</string>
+    <string name="onboarding_pledge_released_early">जल्दी छोड़ दिया — 3 सेकंड तक आराम से दबाए रखें.</string>
+
+    <!-- Complete -->
+    <string name="onboarding_complete_headline">आप पूरी तरह तैयार हैं.</string>
+    <string name="onboarding_complete_illustration_cd">फ़ोकस के लिए तैयार टेरेरियम</string>
+    <string name="onboarding_complete_badge">रोज़ के फ़ोकस के लिए तैयार</string>
+    <plurals name="onboarding_complete_guarded_apps">
+        <item quantity="one">%1$d ऐप खुलने से पहले रुकने के लिए सेट है.</item>
+        <item quantity="other">%1$d ऐप्स खुलने से पहले रुकने के लिए सेट हैं.</item>
+    </plurals>
+    <string name="onboarding_complete_mantra_quote">“%1$s”</string>
+    <string name="onboarding_goals_mantra_done">हो गया</string>
+    <string name="onboarding_goals_mantra_empty_hint">अपने लिए मायने रखने वाला रिमाइंडर लिखने के लिए टैप करें</string>
+</resources>

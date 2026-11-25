@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shield_seconds_short">%1$s s</string>
+    <string name="shield_close_app">Cerrar %1$s</string>
+    <plurals name="shield_hold_to_continue">
+        <item quantity="one">MANTÉN %1$d S PARA CONTINUAR</item>
+        <item quantity="many">MANTÉN %1$d S PARA CONTINUAR</item>
+        <item quantity="other">MANTÉN %1$d S PARA CONTINUAR</item>
+    </plurals>
+    <string name="shield_keep_holding">SIGUE PULSANDO · %1$s S</string>
+    <string name="shield_released_early_hint">En pausa: mantén pulsado sin soltar para entrar, o cierra arriba.</string>
+    <string name="shield_close_above_hint">Cierra arriba para dar un paso atrás con calma.</string>
+    <string name="shield_pause_app">Pausa · %1$s</string>
+    <string name="shield_open_count_today">Apertura n.º %1$d de hoy</string>
+    <string name="shield_pause_illustration">Ilustración de una pausa tranquila</string>
+    <string name="shield_breathe_slowly">respira despacio</string>
+    <string name="shield_quoted_mantra">«%1$s»</string>
+    <plurals name="shield_minutes_saved">
+        <item quantity="one">+%1$d min recuperado</item>
+        <item quantity="many">+%1$d min recuperados</item>
+        <item quantity="other">+%1$d min recuperados</item>
+    </plurals>
+    <plurals name="shield_stopped_today">
+        <item quantity="one">%1$d frenado hoy</item>
+        <item quantity="many">%1$d frenados hoy</item>
+        <item quantity="other">%1$d frenados hoy</item>
+    </plurals>
+    <string name="shield_nice_choice">Buena decisión.\n%1$s cerrada.</string>
+    <string name="shield_back_to_what_matters">De vuelta a lo que importa</string>
+    <string name="shield_returning_home">Volviendo al inicio…</string>
+    <!-- Break offered on a repeat pause screen -->
+    <string name="shield_break_checkbox">No pausar %1$s por un rato</string>
+    <string name="shield_break_30">30 min</string>
+    <string name="shield_break_60">1 h</string>
+    <string name="shield_break_120">2 h</string>
+    <string name="shield_break_hint">Empieza cuando mantienes pulsado para continuar.</string>
+    <string name="home_break_title">En descanso</string>
+    <string name="home_break_until">%1$s · sin pausas hasta las %2$s</string>
+    <string name="home_break_resume">Reanudar pausas</string>
+</resources>

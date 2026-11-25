@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings / Inspiration strings - Arabic (RTL). -->
+<resources>
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_replay_onboarding">إعادة عرض الجولة التعريفية</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_theme_system">حسب النظام</string>
+    <string name="settings_appearance_label">المظهر</string>
+    <string name="settings_inspiration_title">الإلهام</string>
+    <string name="settings_inspiration_summary">%1$s · %2$s</string>
+    <string name="settings_open">فتح</string>
+    <string name="settings_protection_label">حماية التطبيقات</string>
+    <string name="settings_permission_detect">رصد التطبيقات المحمية</string>
+    <string name="settings_permission_pause">عرض شاشة التوقف المؤقت</string>
+    <string name="settings_permission_insights">إحصاءات وقت الشاشة (اختياري)</string>
+    <string name="settings_badge_active">مفعّل</string>
+    <string name="settings_badge_enable">تفعيل</string>
+    <string name="settings_badge_allow">سماح</string>
+    <string name="settings_pause_label">تفضيلات التوقف المؤقت</string>
+    <string name="settings_pause_length">مدة التوقف المؤقت الافتراضية</string>
+    <string name="settings_seconds_short">%1$d ث</string>
+    <string name="settings_minutes_short">%1$d د</string>
+    <string name="settings_grace_every_open">عند كل فتح</string>
+    <string name="settings_reask">إعادة السؤال بعد الفتح</string>
+    <string name="settings_vibration">الاستجابة بالاهتزاز</string>
+    <string name="settings_quick_add_label">إضافة تذكير سريع</string>
+    <string name="settings_mantra_saved">تمت الإضافة إلى التناوب.</string>
+    <string name="settings_mantra_more">المزيد من التذكيرات والاقتراحات في قسم الإلهام.</string>
+    <string name="settings_add">إضافة</string>
+    <string name="settings_retry">إعادة المحاولة</string>
+    <string name="settings_error_load">تعذّر تحميل الإعدادات.</string>
+    <string name="inspiration_title">الإلهام</string>
+    <string name="inspiration_subtitle">تذكيرات وصور شخصية تستقبلك قبل فتح أي تطبيق محمي.</string>
+    <string name="inspiration_back">رجوع</string>
+    <string name="inspiration_add_photo">+ إضافة صورة ملهمة</string>
+    <string name="inspiration_preview_pause">معاينة شاشة التوقف المؤقت</string>
+    <string name="inspiration_caption_label">أضف وصفًا لصورتك</string>
+    <string name="inspiration_selected_preview_cd">معاينة الصورة الملهمة المحددة</string>
+    <string name="inspiration_caption_placeholder">لماذا يهمّ هذا اليوم؟</string>
+    <string name="inspiration_cancel">إلغاء</string>
+    <string name="inspiration_saving">جارٍ الحفظ…</string>
+    <string name="inspiration_save_photo">حفظ الصورة</string>
+    <string name="inspiration_photos_empty_title">لا توجد صور ملهمة بعد</string>
+    <string name="inspiration_photos_empty_body">أضف صورة لشخص أو شيء يهمّك لتظهر على شاشة التوقف المؤقت.</string>
+    <string name="inspiration_remove">إزالة</string>
+    <string name="inspiration_show_photos_title">عرض الصور على شاشة التوقف المؤقت</string>
+    <string name="inspiration_show_photos_body">عرض معرض صورك بلطف عند فتح أي تطبيق</string>
+    <string name="inspiration_vary_prompts_title">رسائل يومية مدروسة</string>
+    <string name="inspiration_vary_prompts_body">تبديل أسئلة التأمل بهدوء مع كل فتح</string>
+    <string name="inspiration_retry">إعادة المحاولة</string>
+    <string name="inspiration_error_load">تعذّر تحميل شاشة الإلهام.</string>
+    <string name="inspiration_error_photo_save">تعذّر حفظ هذه الصورة. جرّب صورة أخرى.</string>
+    <string name="inspiration_reminders_title">التذكيرات الشخصية</string>
+    <string name="inspiration_reminders_body">تظهر عشوائيًا قبل فتح أي تطبيق محمي. اختر نوعًا أو انقر على فكرة أدناه.</string>
+    <string name="inspiration_add_reminder">+ إضافة تذكير</string>
+    <string name="inspiration_reminder_added">تمت الإضافة — سيظهر عشوائيًا على شاشة التوقف المؤقت.</string>
+    <string name="inspiration_ideas_label">أفكار — انقر للاستخدام</string>
+    <string name="inspiration_reminders_empty">لا توجد تذكيرات شخصية بعد — أضف في الأعلى أهدافًا أو مصادر إلهام أو إشارات لاستعادة التركيز.</string>
+    <string name="inspiration_reminder_quoted">«%1$s»</string>
+    <plurals name="settings_photo_count">
+        <item quantity="zero">لا صور</item>
+        <item quantity="one">صورة واحدة</item>
+        <item quantity="two">صورتان</item>
+        <item quantity="few">%1$d صور</item>
+        <item quantity="many">%1$d صورة</item>
+        <item quantity="other">%1$d صورة</item>
+    </plurals>
+    <plurals name="settings_reminder_count">
+        <item quantity="zero">لا تذكيرات متناوبة</item>
+        <item quantity="one">تذكير متناوب واحد</item>
+        <item quantity="two">تذكيران متناوبان</item>
+        <item quantity="few">%1$d تذكيرات متناوبة</item>
+        <item quantity="many">%1$d تذكيرًا متناوبًا</item>
+        <item quantity="other">%1$d تذكير متناوب</item>
+    </plurals>
+    <plurals name="inspiration_photo_badge">
+        <item quantity="zero">لا صور</item>
+        <item quantity="one">صورة واحدة</item>
+        <item quantity="two">صورتان</item>
+        <item quantity="few">%1$d صور</item>
+        <item quantity="many">%1$d صورة</item>
+        <item quantity="other">%1$d صورة</item>
+    </plurals>
+    <plurals name="inspiration_reminders_saved_badge">
+        <item quantity="zero">المحفوظة: %1$d</item>
+        <item quantity="one">المحفوظة: %1$d</item>
+        <item quantity="two">المحفوظة: %1$d</item>
+        <item quantity="few">المحفوظة: %1$d</item>
+        <item quantity="many">المحفوظة: %1$d</item>
+        <item quantity="other">المحفوظة: %1$d</item>
+    </plurals>
+    <!-- Inspiration tabs -->
+    <string name="inspiration_tab_reminders">التذكيرات</string>
+    <string name="inspiration_tab_photos">الصور</string>
+    <string name="inspiration_tab_pause">شاشة التوقف المؤقت</string>
+    <string name="inspiration_add_photo_tile">إضافة صورة</string>
+    <string name="inspiration_remove_photo_cd">إزالة الصورة</string>
+</resources>

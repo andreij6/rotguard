@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_apps">Apps</string>
+    <string name="nav_insights">Estadísticas</string>
+    <string name="nav_settings">Ajustes</string>
+
+    <string name="home_retry">Reintentar</string>
+    <string name="home_two_parts">%1$s · %2$s</string>
+    <string name="home_minutes_short">%1$d min</string>
+
+    <string name="dashboard_title">Inicio</string>
+    <string name="dashboard_status_active">ACTIVO</string>
+    <string name="dashboard_status_paused">EN PAUSA</string>
+    <string name="dashboard_setup_label">TERMINA LA CONFIGURACIÓN</string>
+    <string name="dashboard_setup_body">Activa la detección de apps y el acceso a la pantalla de pausa para que RotGuard pueda pausar las apps bloqueadas.</string>
+    <string name="dashboard_setup_button">Activar protección</string>
+    <string name="dashboard_medallion_description">Terrario botánico de tu Salud de concentración</string>
+    <string name="dashboard_health_percent">%1$d %%</string>
+    <string name="dashboard_focus_health">Salud de concentración</string>
+    <string name="dashboard_stage_thriving">Gran concentración hoy</string>
+    <string name="dashboard_stage_alert">Ritmo estable</string>
+    <string name="dashboard_stage_strained">Se colaron algunos impulsos</string>
+    <string name="dashboard_stage_reset">Momento de una pausa consciente</string>
+    <plurals name="dashboard_hero_summary">
+        <item quantity="one">%1$s · %2$d minuto recuperado hoy</item>
+        <item quantity="other">%1$s · %2$d minutos recuperados hoy</item>
+    </plurals>
+    <string name="dashboard_kpi_urges_stopped">IMPULSOS FRENADOS</string>
+    <string name="dashboard_kpi_time_saved">TIEMPO RECUPERADO</string>
+    <plurals name="dashboard_photo_count">
+        <item quantity="one">%1$d FOTO</item>
+        <item quantity="other">%1$d FOTOS</item>
+    </plurals>
+    <plurals name="dashboard_reminder_count">
+        <item quantity="one">%1$d RECORDATORIO</item>
+        <item quantity="other">%1$d RECORDATORIOS</item>
+    </plurals>
+    <string name="dashboard_manage">Gestionar</string>
+    <string name="dashboard_inspiration_fallback">Inspiración</string>
+    <string name="dashboard_mantra_quoted">“%1$s”</string>
+    <string name="dashboard_no_apps">Aún no hay apps bloqueadas: toca para elegir.</string>
+    <string name="dashboard_paused_apps">Apps en pausa: %1$s</string>
+    <string name="dashboard_test_blocker">Probar la pantalla de pausa</string>
+    <string name="dashboard_edit">Editar</string>
+    <string name="dashboard_error_load">No se pudo cargar el Inicio. Inténtalo de nuevo.</string>
+
+    <string name="insights_title">Estadísticas</string>
+    <string name="insights_duel_label">COMPARACIÓN DIARIA</string>
+    <string name="insights_duel_ahead">Mejor que tu promedio diario</string>
+    <string name="insights_duel_behind">Muchas aperturas hoy</string>
+    <string name="insights_duel_body">Menos pausas saltadas que en un día típico de mucho scroll.</string>
+    <string name="insights_your_opens">TUS APERTURAS</string>
+    <string name="insights_vs">VS</string>
+    <string name="insights_daily_avg">PROMEDIO DIARIO</string>
+    <string name="insights_trend_title">Salud de concentración en 7 días</string>
+    <plurals name="insights_week_minutes_saved">
+        <item quantity="one">%1$d MIN RECUPERADO</item>
+        <item quantity="other">%1$d MIN RECUPERADOS</item>
+    </plurals>
+    <string name="insights_most_closed">Más cerradas hoy</string>
+    <string name="insights_empty">Hoy todavía no se ha pausado ninguna distracción. Tu protección está activa.</string>
+    <plurals name="insights_closed_count">
+        <item quantity="one">%1$d cerrada</item>
+        <item quantity="other">%1$d cerradas</item>
+    </plurals>
+    <plurals name="insights_opened_count">
+        <item quantity="one">%1$d abierta</item>
+        <item quantity="other">%1$d abiertas</item>
+    </plurals>
+    <plurals name="insights_app_minutes_saved">
+        <item quantity="one">%1$d min recuperado</item>
+        <item quantity="other">%1$d min recuperados</item>
+    </plurals>
+    <string name="insights_error_load">No se pudieron cargar tus estadísticas semanales. Inténtalo de nuevo.</string>
+
+    <string name="apps_title">Apps bloqueadas</string>
+    <plurals name="apps_active_count">
+        <item quantity="one">%1$d ACTIVA</item>
+        <item quantity="other">%1$d ACTIVAS</item>
+    </plurals>
+    <string name="apps_search_placeholder">Buscar apps instaladas…</string>
+    <string name="apps_pause_length">DURACIÓN DE LA PAUSA</string>
+    <string name="apps_seconds_short">%1$d s</string>
+    <string name="apps_suggested">SUGERIDA</string>
+    <plurals name="apps_hold_seconds">
+        <item quantity="one">Pausa de %1$d segundo</item>
+        <item quantity="other">Pausa de %1$d segundos</item>
+    </plurals>
+    <string name="apps_not_paused">Sin pausa</string>
+    <string name="apps_icon_description">Icono de %1$s</string>
+    <string name="apps_error_load">No se pudieron cargar tus apps instaladas. Inténtalo de nuevo.</string>
+</resources>
